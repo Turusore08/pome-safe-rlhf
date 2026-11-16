@@ -1,0 +1,13 @@
+Fase,Algoritma,T1 Aerasi Rata2 (jam/step),T2 Lampu Rata2 (Lux),T3 Molase Total (mL),T4 NaHCO3 Total (g),T5 Inokulum Total (mL)
+Fase 1: Inokulasi & Aklimatisasi (Hari 0-4),Safe RLHF (Proposed),4.89,844.0,0.0,11.7,41.6
+Fase 1: Inokulasi & Aklimatisasi (Hari 0-4),DPPO (LAPSE),5.76,1592.0,0.0,0.0,0.0
+Fase 1: Inokulasi & Aklimatisasi (Hari 0-4),HCR (Operator Baseline),5.87,1104.0,0.0,0.0,0.0
+Fase 2: Pertumbuhan Eksponensial (Hari 4-8),Safe RLHF (Proposed),5.93,1661.0,1.2,0.3,0.0
+Fase 2: Pertumbuhan Eksponensial (Hari 4-8),DPPO (LAPSE),5.53,1686.0,0.0,0.0,0.0
+Fase 2: Pertumbuhan Eksponensial (Hari 4-8),HCR (Operator Baseline),5.86,1070.0,0.0,0.0,0.0
+Fase 3: Stabilisasi & Remediasi (Hari 8-12),Safe RLHF (Proposed),5.21,1292.0,0.2,0.2,5.7
+Fase 3: Stabilisasi & Remediasi (Hari 8-12),DPPO (LAPSE),5.25,1715.0,0.0,0.0,0.0
+Fase 3: Stabilisasi & Remediasi (Hari 8-12),HCR (Operator Baseline),5.93,1095.0,0.0,0.0,0.0
+Fase 4: Polishing & Regulasi (Hari 12-16),Safe RLHF (Proposed),3.36,619.0,0.7,0.3,9.8
+Fase 4: Polishing & Regulasi (Hari 12-16),DPPO (LAPSE),5.49,1941.0,0.0,0.0,0.0
+Fase 4: Polishing & Regulasi (Hari 12-16),HCR (Operator Baseline),5.97,1138.0,0.0,0.0,0.0

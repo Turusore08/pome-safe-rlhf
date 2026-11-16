@@ -1,0 +1,5 @@
+Algoritma,Success_Rate_Pct,PerMenLH_Compliance_Rate_Pct,Mean_Compliance_Day,Std_Compliance_Day,Mean_COD_Removal_Pct,Std_COD_Removal_Pct,Mean_Final_COD_mg_L,Mean_Final_pH,Mean_Violation_Rate_Pct,Mean_Total_Cost_IDR,Mean_Pareto_Score,Std_Pareto_Score
+DPPO (LAPSE Reference),2.0,2.0,15.96,0.28,94.92,9.31,233.7,9.31,3.13,11339.0,80.99,7.63
+HCR (Operator Baseline),2.0,2.0,15.96,0.25,97.05,3.1,126.5,8.58,0.71,14173.0,80.36,1.43
+Safe RLHF (Proposed),0.0,0.0,16.0,0.0,95.04,14.77,228.2,9.79,2.59,13570.0,79.26,11.01
+Standard SAC (Unconstrained),28.0,28.0,14.65,2.18,91.3,17.07,398.3,9.63,5.96,58025.0,68.22,12.71

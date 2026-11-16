@@ -1,0 +1,81 @@
+{
+  "model_registry": "pome-rlhf-edge-v1",
+  "runs": {
+    "run_pome_1794467510": {
+      "run_id": "run_pome_1794467510",
+      "stage": "complete_pipeline",
+      "timestamp": "2026-11-12 14:11:50",
+      "parameters": {
+        "state_dim": 224,
+        "action_dim": 5,
+        "candidates": 16,
+        "reactor_volume_l": 2.5
+      },
+      "artifacts": {
+        "sft_policy": "/home/turusore08/Desktop/KP/pome-safe-rlhf/code/checkpoints/sft_policy.pt",
+        "reward_ensemble": "/home/turusore08/Desktop/KP/pome-safe-rlhf/code/checkpoints/reward_ensemble.pt",
+        "dppo_policy": "/home/turusore08/Desktop/KP/pome-safe-rlhf/code/checkpoints/dppo_policy.pt",
+        "safe_rlhf_policy": "/home/turusore08/Desktop/KP/pome-safe-rlhf/code/checkpoints/safe_rlhf_policy.pt",
+        "safe_rlhf_reward_critic": "/home/turusore08/Desktop/KP/pome-safe-rlhf/code/checkpoints/safe_rlhf_reward_critic.pt",
+        "safe_rlhf_failure_ensemble": "/home/turusore08/Desktop/KP/pome-safe-rlhf/code/checkpoints/safe_rlhf_failure_ensemble.pt",
+        "onnx_model": "/home/turusore08/Desktop/KP/pome-safe-rlhf/code/deployment/models/policy_edge.onnx",
+        "evaluation_report": "/home/turusore08/Desktop/KP/pome-safe-rlhf/code/evaluation/report.md"
+      },
+      "metrics": {
+        "compliance_day": 16.0,
+        "cod_removal_pct": 94.9231519555929,
+        "bod_reduction_pct": 96.5360555619852,
+        "tss_removal_pct": 80.66513760783963,
+        "biomass_gl": 1.1023200022124295,
+        "total_cost_idr": 10624.04514587323,
+        "violations": 5,
+        "violation_rate": 1.0,
+        "intervention_rate": 1.0,
+        "mean_latency_ms": 17.924616034997598
+      }
+    },
+    "run_pome_1794470350": {
+      "run_id": "run_pome_1794470350",
+      "stage": "complete_pipeline",
+      "timestamp": "2026-11-12 14:59:10",
+      "parameters": {
+        "state_dim": 224,
+        "action_dim": 5,
+        "candidates": 16,
+        "reactor_volume_l": 2.5
+      },
+      "artifacts": {
+        "sft_policy": "/home/turusore08/Desktop/KP/pome-safe-rlhf/code/checkpoints/sft_policy.pt",
+        "reward_ensemble": "/home/turusore08/Desktop/KP/pome-safe-rlhf/code/checkpoints/reward_ensemble.pt",
+        "dppo_policy": "/home/turusore08/Desktop/KP/pome-safe-rlhf/code/checkpoints/dppo_policy.pt",
+        "safe_rlhf_policy": "/home/turusore08/Desktop/KP/pome-safe-rlhf/code/checkpoints/safe_rlhf_policy.pt",
+        "safe_rlhf_reward_critic": "/home/turusore08/Desktop/KP/pome-safe-rlhf/code/checkpoints/safe_rlhf_reward_critic.pt",
+        "safe_rlhf_failure_ensemble": "/home/turusore08/Desktop/KP/pome-safe-rlhf/code/checkpoints/safe_rlhf_failure_ensemble.pt",
+        "onnx_model": "/home/turusore08/Desktop/KP/pome-safe-rlhf/code/deployment/models/policy_edge.onnx",
+        "evaluation_report": "/home/turusore08/Desktop/KP/pome-safe-rlhf/code/evaluation/report.md"
+      },
+      "metrics": {
+        "compliance_day": 16.0,
+        "cod_removal_pct": 98.32700419226317,
+        "bod_reduction_pct": 98.85161043995589,
+        "tss_removal_pct": 88.69605512797573,
+        "biomass_gl": 0.9098953782048882,
+        "total_cost_idr": 14642.08581131561,
+        "violations": 0,
+        "violation_rate": 0.0,
+        "intervention_rate": 0.021875,
+        "mean_latency_ms": 3.0423011449965998
+      }
+    }
+  },
+  "active_checkpoints": {
+    "sft_policy": "/home/turusore08/Desktop/KP/pome-safe-rlhf/code/checkpoints/sft_policy.pt",
+    "reward_ensemble": "/home/turusore08/Desktop/KP/pome-safe-rlhf/code/checkpoints/reward_ensemble.pt",
+    "dppo_policy": "/home/turusore08/Desktop/KP/pome-safe-rlhf/code/checkpoints/dppo_policy.pt",
+    "safe_rlhf_policy": "/home/turusore08/Desktop/KP/pome-safe-rlhf/code/checkpoints/safe_rlhf_policy.pt",
+    "safe_rlhf_reward_critic": "/home/turusore08/Desktop/KP/pome-safe-rlhf/code/checkpoints/safe_rlhf_reward_critic.pt",
+    "safe_rlhf_failure_ensemble": "/home/turusore08/Desktop/KP/pome-safe-rlhf/code/checkpoints/safe_rlhf_failure_ensemble.pt",
+    "onnx_model": "/home/turusore08/Desktop/KP/pome-safe-rlhf/code/deployment/models/policy_edge.onnx",
+    "evaluation_report": "/home/turusore08/Desktop/KP/pome-safe-rlhf/code/evaluation/report.md"
+  }
+}

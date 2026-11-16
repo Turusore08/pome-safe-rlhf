@@ -1,0 +1,233 @@
+{
+  "timestamp": "2026-11-12 16:03:24",
+  "model_parameters_and_storage": {
+    "parameters": {
+      "SensorEncoder (1D-Conv)": {
+        "trainable": 113792,
+        "total": 113792,
+        "size_kb_fp32": 444.5
+      },
+      "VisionEncoder (ConvNeXt)": {
+        "trainable": 109184,
+        "total": 109184,
+        "size_kb_fp32": 426.5
+      },
+      "HurdlePolicy (pi_theta / pi_sft)": {
+        "trainable": 62991,
+        "total": 62991,
+        "size_kb_fp32": 246.06
+      },
+      "RewardCritic (Q_r)": {
+        "trainable": 125953,
+        "total": 125953,
+        "size_kb_fp32": 492.0
+      },
+      "FailureCriticEnsemble (M=4)": {
+        "trainable": 503812,
+        "total": 503812,
+        "size_kb_fp32": 1968.02
+      },
+      "Total_Runtime_Pipeline": {
+        "total_params": 915732,
+        "size_mb_fp32": 3.49,
+        "size_mb_int8": 0.87
+      }
+    },
+    "disk_storage": {
+      "sft_policy.pt": {
+        "size_kb": 252.8,
+        "size_mb": 0.247
+      },
+      "safe_rlhf_policy.pt": {
+        "size_kb": 252.82,
+        "size_mb": 0.247
+      },
+      "reward_ensemble.pt": {
+        "size_kb": 285.65,
+        "size_mb": 0.279
+      },
+      "policy_edge.onnx": {
+        "size_kb": 259.12,
+        "size_mb": 0.253
+      },
+      "policy_quantized_int8.pt": {
+        "size_kb": 75.26,
+        "size_mb": 0.073
+      }
+    }
+  },
+  "latency_decomposition": {
+    "device": "cpu",
+    "num_candidates": 16,
+    "num_cycles": 200,
+    "T_enc_sensor": {
+      "mean_ms": 0.151,
+      "p50_ms": 0.147,
+      "p95_ms": 0.17,
+      "p99_ms": 0.192,
+      "min_ms": 0.083,
+      "max_ms": 0.298
+    },
+    "T_enc_vision": {
+      "mean_ms": 2.289,
+      "p50_ms": 2.284,
+      "p95_ms": 2.539,
+      "p99_ms": 2.817,
+      "min_ms": 1.951,
+      "max_ms": 3.15
+    },
+    "T_enc_total": {
+      "mean_ms": 2.44,
+      "p50_ms": 2.43,
+      "p95_ms": 2.687,
+      "p99_ms": 3.046,
+      "min_ms": 2.094,
+      "max_ms": 3.448
+    },
+    "T_pi_candidates": {
+      "mean_ms": 15.987,
+      "p50_ms": 15.763,
+      "p95_ms": 16.737,
+      "p99_ms": 19.037,
+      "min_ms": 15.392,
+      "max_ms": 23.344
+    },
+    "T_Qr_reward_critic": {
+      "mean_ms": 0.39,
+      "p50_ms": 0.382,
+      "p95_ms": 0.445,
+      "p99_ms": 0.572,
+      "min_ms": 0.322,
+      "max_ms": 0.631
+    },
+    "T_C_failure_critics": {
+      "mean_ms": 1.483,
+      "p50_ms": 1.477,
+      "p95_ms": 1.653,
+      "p99_ms": 2.047,
+      "min_ms": 1.257,
+      "max_ms": 2.266
+    },
+    "T_selection_lagrangian": {
+      "mean_ms": 0.765,
+      "p50_ms": 0.657,
+      "p95_ms": 1.22,
+      "p99_ms": 1.376,
+      "min_ms": 0.133,
+      "max_ms": 1.924
+    },
+    "T_step_total": {
+      "mean_ms": 21.082,
+      "p50_ms": 20.813,
+      "p95_ms": 22.856,
+      "p99_ms": 25.864,
+      "min_ms": 19.925,
+      "max_ms": 29.76
+    },
+    "throughput_steps_per_sec": 47.43
+  },
+  "candidate_scaling_sensitivity": {
+    "N=4": {
+      "mean_ms": 8.184,
+      "p95_ms": 8.37,
+      "t_pi_ms": 4.079,
+      "t_critics_ms": 1.404,
+      "throughput_hz": 122.2
+    },
+    "N=8": {
+      "mean_ms": 12.526,
+      "p95_ms": 12.921,
+      "t_pi_ms": 8.04,
+      "t_critics_ms": 1.591,
+      "throughput_hz": 79.83
+    },
+    "N=16": {
+      "mean_ms": 21.141,
+      "p95_ms": 21.684,
+      "t_pi_ms": 15.905,
+      "t_critics_ms": 1.941,
+      "throughput_hz": 47.3
+    },
+    "N=32": {
+      "mean_ms": 41.461,
+      "p95_ms": 44.919,
+      "t_pi_ms": 34.14,
+      "t_critics_ms": 2.656,
+      "throughput_hz": 24.12
+    },
+    "N=64": {
+      "mean_ms": 76.433,
+      "p95_ms": 80.51,
+      "t_pi_ms": 65.959,
+      "t_critics_ms": 3.805,
+      "throughput_hz": 13.08
+    },
+    "N=128": {
+      "mean_ms": 150.801,
+      "p95_ms": 160.189,
+      "t_pi_ms": 132.83,
+      "t_critics_ms": 6.579,
+      "throughput_hz": 6.63
+    }
+  },
+  "critic_ensemble_scaling": {
+    "M=2": {
+      "mean_ms": 0.749,
+      "p95_ms": 0.843
+    },
+    "M=4": {
+      "mean_ms": 1.354,
+      "p95_ms": 1.492
+    },
+    "M=6": {
+      "mean_ms": 1.999,
+      "p95_ms": 2.094
+    },
+    "M=8": {
+      "mean_ms": 2.669,
+      "p95_ms": 2.832
+    },
+    "M=10": {
+      "mean_ms": 3.32,
+      "p95_ms": 3.372
+    }
+  },
+  "runtime_memory": {
+    "rss_memory_baseline_mb": 596.47,
+    "rss_memory_active_mb": 596.5,
+    "delta_mb": 0.04
+  },
+  "edge_hardware_projections": {
+    "desktop_x86_latency_ms": 21.08,
+    "rpi4_projected_latency_ms": 109.63,
+    "rpi5_projected_latency_ms": 50.6,
+    "control_window_seconds": 21600,
+    "rpi4_window_margin_factor": 197033.0,
+    "rpi4_duty_cycle_pct": 0.000508,
+    "rpi4_energy_per_decision_joules": 0.6029,
+    "rpi4_daily_compute_energy_mwh": 0.6699,
+    "bioreactor_actuators_power_watts": 59.4,
+    "compute_power_overhead_ratio": 0.0926,
+    "feasibility_verdict": "ULTRA-FEASIBLE: Computation requires <0.001% of the 6-hour control window"
+  },
+  "comparison_vs_analytical_mpc": {
+    "analytical_mpc": {
+      "paradigm": "Online Non-Linear Programming / Quadratic Programming (NLP/QP) optimization",
+      "solver": "Interior Point / Sequential Quadratic Programming (IPOPT / OSQP)",
+      "time_complexity_per_step": "O(H * (n_x^3 + n_u^3) * N_iter) where H=prediction horizon",
+      "runtime_behavior": "Iterative (convergence dependent on matrix conditioning)",
+      "typical_edge_latency": "1,500 ms \u2013 45,000 ms (often times out on non-convex kinetics)",
+      "failure_modes": "Infeasibility / divergence when pH collapses or substrate inhibits",
+      "memory_footprint": "Large sparse Hessian / Jacobian matrices (15\u201380 MB RAM)"
+    },
+    "safe_data_driven_rlhf": {
+      "paradigm": "Forward neural feedforward pass + Risk-Aware Lagrangian selection",
+      "solver": "Deterministic neural evaluation across N candidates",
+      "time_complexity_per_step": "O(N * W_layers) = strictly bounded linear complexity",
+      "runtime_behavior": "Deterministic forward pass (guaranteed execution deadline)",
+      "typical_edge_latency": "~109.6 ms projected on Raspberry Pi 4",
+      "failure_modes": "Guaranteed fallback candidate selection (minimum conservative risk)",
+      "memory_footprint": "Compact neural weights (3.49 MB FP32 / 0.87 MB INT8)"
+    }
+  }
+}

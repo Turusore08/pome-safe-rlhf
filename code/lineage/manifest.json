@@ -1,0 +1,73 @@
+{
+  "model_registry": "pome-rlhf-edge-v1",
+  "runs": {
+    "run_pome_1791462858": {
+      "run_id": "run_pome_1791462858",
+      "stage": "complete_pipeline",
+      "timestamp": "2026-10-08 19:34:18",
+      "parameters": {
+        "state_dim": 224,
+        "action_dim": 5,
+        "candidates": 16
+      },
+      "artifacts": {
+        "sft_policy": "checkpoints/sft_policy.pt",
+        "reward_ensemble": "checkpoints/reward_ensemble.pt",
+        "onnx_model": "deployment/models/policy_edge.onnx",
+        "evaluation_report": "evaluation/report.md"
+      },
+      "metrics": {
+        "compliance_day": 16.0,
+        "cod_removal_pct": 84.51922683338896,
+        "biomass_gl": 6.157917449389783,
+        "total_cost_idr": 20456.777954562505,
+        "violations": 0,
+        "violation_rate": 0.0,
+        "intervention_rate": 1.0
+      }
+    },
+    "run_pome_1794466339": {
+      "run_id": "run_pome_1794466339",
+      "stage": "complete_pipeline",
+      "timestamp": "2026-11-12 13:52:19",
+      "parameters": {
+        "state_dim": 224,
+        "action_dim": 5,
+        "candidates": 16,
+        "reactor_volume_l": 2.5
+      },
+      "artifacts": {
+        "sft_policy": "/home/turusore08/Desktop/KP/pome-safe-rlhf/code/checkpoints/sft_policy.pt",
+        "reward_ensemble": "/home/turusore08/Desktop/KP/pome-safe-rlhf/code/checkpoints/reward_ensemble.pt",
+        "dppo_policy": "/home/turusore08/Desktop/KP/pome-safe-rlhf/code/checkpoints/dppo_policy.pt",
+        "safe_rlhf_policy": "/home/turusore08/Desktop/KP/pome-safe-rlhf/code/checkpoints/safe_rlhf_policy.pt",
+        "safe_rlhf_reward_critic": "/home/turusore08/Desktop/KP/pome-safe-rlhf/code/checkpoints/safe_rlhf_reward_critic.pt",
+        "safe_rlhf_failure_ensemble": "/home/turusore08/Desktop/KP/pome-safe-rlhf/code/checkpoints/safe_rlhf_failure_ensemble.pt",
+        "onnx_model": "/home/turusore08/Desktop/KP/pome-safe-rlhf/code/deployment/models/policy_edge.onnx",
+        "evaluation_report": "/home/turusore08/Desktop/KP/pome-safe-rlhf/code/evaluation/report.md"
+      },
+      "metrics": {
+        "compliance_day": 16.0,
+        "cod_removal_pct": 93.67058266644719,
+        "bod_reduction_pct": 95.54496439822424,
+        "tss_removal_pct": 86.582082499589,
+        "biomass_gl": 0.297269769459516,
+        "total_cost_idr": 5931.508486125893,
+        "violations": 5,
+        "violation_rate": 1.0,
+        "intervention_rate": 1.0,
+        "mean_latency_ms": 15.772868470012327
+      }
+    }
+  },
+  "active_checkpoints": {
+    "sft_policy": "/home/turusore08/Desktop/KP/pome-safe-rlhf/code/checkpoints/sft_policy.pt",
+    "reward_ensemble": "/home/turusore08/Desktop/KP/pome-safe-rlhf/code/checkpoints/reward_ensemble.pt",
+    "onnx_model": "/home/turusore08/Desktop/KP/pome-safe-rlhf/code/deployment/models/policy_edge.onnx",
+    "evaluation_report": "/home/turusore08/Desktop/KP/pome-safe-rlhf/code/evaluation/report.md",
+    "dppo_policy": "/home/turusore08/Desktop/KP/pome-safe-rlhf/code/checkpoints/dppo_policy.pt",
+    "safe_rlhf_policy": "/home/turusore08/Desktop/KP/pome-safe-rlhf/code/checkpoints/safe_rlhf_policy.pt",
+    "safe_rlhf_reward_critic": "/home/turusore08/Desktop/KP/pome-safe-rlhf/code/checkpoints/safe_rlhf_reward_critic.pt",
+    "safe_rlhf_failure_ensemble": "/home/turusore08/Desktop/KP/pome-safe-rlhf/code/checkpoints/safe_rlhf_failure_ensemble.pt"
+  }
+}
