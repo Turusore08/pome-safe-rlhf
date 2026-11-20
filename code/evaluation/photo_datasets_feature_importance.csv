@@ -1,0 +1,241 @@
+dataset,target,target_label,feature,group,rf_importance_norm,mi_score_norm,ridge_abs_norm,consensus_score
+Baseline,target_od680,OD680 / Biomass (AU),R_mean,RGB Reflectance,11.989,69.806,27.201,35.267
+Baseline,target_od680,OD680 / Biomass (AU),G_mean,RGB Reflectance,13.19,69.724,14.745,33.288
+Baseline,target_od680,OD680 / Biomass (AU),B_mean,RGB Reflectance,3.046,72.543,44.605,35.682
+Baseline,target_od680,OD680 / Biomass (AU),R_std,RGB Reflectance,79.267,80.87,93.643,82.703
+Baseline,target_od680,OD680 / Biomass (AU),G_std,RGB Reflectance,24.488,83.885,75.499,55.479
+Baseline,target_od680,OD680 / Biomass (AU),B_std,RGB Reflectance,48.251,85.553,0.871,51.831
+Baseline,target_od680,OD680 / Biomass (AU),ExG_index,Algal Pigment Indices,9.725,50.283,89.868,39.949
+Baseline,target_od680,OD680 / Biomass (AU),G_R_ratio,Algal Pigment Indices,7.395,58.372,57.642,35.286
+Baseline,target_od680,OD680 / Biomass (AU),NGRDI,Algal Pigment Indices,6.895,60.028,63.728,36.858
+Baseline,target_od680,OD680 / Biomass (AU),B_G_ratio,Algal Pigment Indices,24.522,53.65,25.488,34.91
+Baseline,target_od680,OD680 / Biomass (AU),HSV_H_mean,HSV & CIE L*a*b*,5.957,59.922,11.17,25.887
+Baseline,target_od680,OD680 / Biomass (AU),HSV_S_mean,HSV & CIE L*a*b*,17.837,73.565,25.958,38.966
+Baseline,target_od680,OD680 / Biomass (AU),HSV_V_mean,HSV & CIE L*a*b*,3.683,71.245,48.159,36.225
+Baseline,target_od680,OD680 / Biomass (AU),LAB_L_mean,HSV & CIE L*a*b*,2.619,69.151,100.0,45.381
+Baseline,target_od680,OD680 / Biomass (AU),LAB_a_mean,HSV & CIE L*a*b*,6.081,58.54,65.668,36.359
+Baseline,target_od680,OD680 / Biomass (AU),LAB_b_mean,HSV & CIE L*a*b*,11.878,42.758,45.148,29.34
+Baseline,target_od680,OD680 / Biomass (AU),Optical_Darkness,Optical & Spatial Texture,6.543,68.828,5.898,28.214
+Baseline,target_od680,OD680 / Biomass (AU),Shannon_Entropy,Optical & Spatial Texture,62.009,73.174,17.377,56.99
+Baseline,target_od680,OD680 / Biomass (AU),Gradient_Edge_Energy,Optical & Spatial Texture,100.0,100.0,10.34,82.068
+Baseline,target_od680,OD680 / Biomass (AU),Center_Border_Contrast,Optical & Spatial Texture,37.639,92.556,4.225,50.177
+Baseline,target_log_cod,log1p(COD) (mg/L),R_mean,RGB Reflectance,10.09,64.258,16.681,30.367
+Baseline,target_log_cod,log1p(COD) (mg/L),G_mean,RGB Reflectance,1.926,65.538,1.793,24.164
+Baseline,target_log_cod,log1p(COD) (mg/L),B_mean,RGB Reflectance,6.811,68.336,19.254,30.833
+Baseline,target_log_cod,log1p(COD) (mg/L),R_std,RGB Reflectance,50.187,86.672,24.906,57.901
+Baseline,target_log_cod,log1p(COD) (mg/L),G_std,RGB Reflectance,84.9,88.954,2.746,69.888
+Baseline,target_log_cod,log1p(COD) (mg/L),B_std,RGB Reflectance,22.494,84.701,21.588,44.085
+Baseline,target_log_cod,log1p(COD) (mg/L),ExG_index,Algal Pigment Indices,12.51,53.025,49.856,34.16
+Baseline,target_log_cod,log1p(COD) (mg/L),G_R_ratio,Algal Pigment Indices,6.106,49.672,14.914,23.115
+Baseline,target_log_cod,log1p(COD) (mg/L),NGRDI,Algal Pigment Indices,4.26,52.858,18.212,24.059
+Baseline,target_log_cod,log1p(COD) (mg/L),B_G_ratio,Algal Pigment Indices,7.015,49.638,36.106,27.751
+Baseline,target_log_cod,log1p(COD) (mg/L),HSV_H_mean,HSV & CIE L*a*b*,16.906,61.468,1.735,29.468
+Baseline,target_log_cod,log1p(COD) (mg/L),HSV_S_mean,HSV & CIE L*a*b*,19.622,71.046,14.768,36.65
+Baseline,target_log_cod,log1p(COD) (mg/L),HSV_V_mean,HSV & CIE L*a*b*,7.449,67.466,91.353,45.236
+Baseline,target_log_cod,log1p(COD) (mg/L),LAB_L_mean,HSV & CIE L*a*b*,1.98,64.793,100.0,43.569
+Baseline,target_log_cod,log1p(COD) (mg/L),LAB_a_mean,HSV & CIE L*a*b*,20.591,57.175,33.41,35.959
+Baseline,target_log_cod,log1p(COD) (mg/L),LAB_b_mean,HSV & CIE L*a*b*,15.68,49.074,33.532,30.938
+Baseline,target_log_cod,log1p(COD) (mg/L),Optical_Darkness,Optical & Spatial Texture,2.843,64.895,3.754,24.743
+Baseline,target_log_cod,log1p(COD) (mg/L),Shannon_Entropy,Optical & Spatial Texture,29.947,70.027,26.108,43.207
+Baseline,target_log_cod,log1p(COD) (mg/L),Gradient_Edge_Energy,Optical & Spatial Texture,100.0,100.0,15.325,83.065
+Baseline,target_log_cod,log1p(COD) (mg/L),Center_Border_Contrast,Optical & Spatial Texture,46.892,99.748,2.261,56.466
+Baseline,target_log_tss,log1p(TSS) (mg/L),R_mean,RGB Reflectance,18.555,66.275,94.478,50.441
+Baseline,target_log_tss,log1p(TSS) (mg/L),G_mean,RGB Reflectance,4.953,68.062,18.536,29.758
+Baseline,target_log_tss,log1p(TSS) (mg/L),B_mean,RGB Reflectance,2.768,70.045,58.723,37.506
+Baseline,target_log_tss,log1p(TSS) (mg/L),R_std,RGB Reflectance,14.189,81.788,6.145,36.24
+Baseline,target_log_tss,log1p(TSS) (mg/L),G_std,RGB Reflectance,7.362,87.293,2.06,34.277
+Baseline,target_log_tss,log1p(TSS) (mg/L),B_std,RGB Reflectance,12.614,85.859,5.895,36.906
+Baseline,target_log_tss,log1p(TSS) (mg/L),ExG_index,Algal Pigment Indices,19.759,57.091,29.176,34.708
+Baseline,target_log_tss,log1p(TSS) (mg/L),G_R_ratio,Algal Pigment Indices,0.738,56.5,0.079,20.123
+Baseline,target_log_tss,log1p(TSS) (mg/L),NGRDI,Algal Pigment Indices,0.475,58.027,0.74,20.671
+Baseline,target_log_tss,log1p(TSS) (mg/L),B_G_ratio,Algal Pigment Indices,7.769,49.902,3.626,21.687
+Baseline,target_log_tss,log1p(TSS) (mg/L),HSV_H_mean,HSV & CIE L*a*b*,8.662,64.356,2.762,26.975
+Baseline,target_log_tss,log1p(TSS) (mg/L),HSV_S_mean,HSV & CIE L*a*b*,6.106,69.661,0.254,27.18
+Baseline,target_log_tss,log1p(TSS) (mg/L),HSV_V_mean,HSV & CIE L*a*b*,3.227,67.285,9.552,26.913
+Baseline,target_log_tss,log1p(TSS) (mg/L),LAB_L_mean,HSV & CIE L*a*b*,2.726,66.139,100.0,44.375
+Baseline,target_log_tss,log1p(TSS) (mg/L),LAB_a_mean,HSV & CIE L*a*b*,2.819,64.796,17.393,27.426
+Baseline,target_log_tss,log1p(TSS) (mg/L),LAB_b_mean,HSV & CIE L*a*b*,3.544,40.088,23.271,20.28
+Baseline,target_log_tss,log1p(TSS) (mg/L),Optical_Darkness,Optical & Spatial Texture,3.671,67.1,31.981,31.533
+Baseline,target_log_tss,log1p(TSS) (mg/L),Shannon_Entropy,Optical & Spatial Texture,21.781,73.854,8.399,37.33
+Baseline,target_log_tss,log1p(TSS) (mg/L),Gradient_Edge_Energy,Optical & Spatial Texture,100.0,100.0,0.205,80.041
+Baseline,target_log_tss,log1p(TSS) (mg/L),Center_Border_Contrast,Optical & Spatial Texture,80.103,89.702,1.016,67.645
+Baseline,target_ph,Water pH (-),R_mean,RGB Reflectance,2.744,74.01,73.468,41.832
+Baseline,target_ph,Water pH (-),G_mean,RGB Reflectance,0.923,72.193,13.998,28.482
+Baseline,target_ph,Water pH (-),B_mean,RGB Reflectance,2.152,76.871,100.0,47.873
+Baseline,target_ph,Water pH (-),R_std,RGB Reflectance,23.396,83.166,6.206,40.877
+Baseline,target_ph,Water pH (-),G_std,RGB Reflectance,6.132,88.132,3.578,34.321
+Baseline,target_ph,Water pH (-),B_std,RGB Reflectance,10.51,81.928,3.014,34.007
+Baseline,target_ph,Water pH (-),ExG_index,Algal Pigment Indices,3.298,58.336,1.499,22.201
+Baseline,target_ph,Water pH (-),G_R_ratio,Algal Pigment Indices,1.339,57.219,4.803,21.59
+Baseline,target_ph,Water pH (-),NGRDI,Algal Pigment Indices,1.59,58.843,6.053,22.521
+Baseline,target_ph,Water pH (-),B_G_ratio,Algal Pigment Indices,2.326,49.729,7.517,19.955
+Baseline,target_ph,Water pH (-),HSV_H_mean,HSV & CIE L*a*b*,11.008,66.444,1.374,28.484
+Baseline,target_ph,Water pH (-),HSV_S_mean,HSV & CIE L*a*b*,11.036,75.963,4.907,32.535
+Baseline,target_ph,Water pH (-),HSV_V_mean,HSV & CIE L*a*b*,2.206,73.215,62.329,39.084
+Baseline,target_ph,Water pH (-),LAB_L_mean,HSV & CIE L*a*b*,0.72,71.5,28.206,30.99
+Baseline,target_ph,Water pH (-),LAB_a_mean,HSV & CIE L*a*b*,5.629,61.602,13.174,26.728
+Baseline,target_ph,Water pH (-),LAB_b_mean,HSV & CIE L*a*b*,3.541,44.099,15.175,20.063
+Baseline,target_ph,Water pH (-),Optical_Darkness,Optical & Spatial Texture,0.813,72.377,1.768,26.052
+Baseline,target_ph,Water pH (-),Shannon_Entropy,Optical & Spatial Texture,20.308,71.165,2.385,34.523
+Baseline,target_ph,Water pH (-),Gradient_Edge_Energy,Optical & Spatial Texture,100.0,100.0,1.426,80.285
+Baseline,target_ph,Water pH (-),Center_Border_Contrast,Optical & Spatial Texture,37.618,87.852,0.892,47.855
+FOTO_crop,target_od680,OD680 / Biomass (AU),R_mean,RGB Reflectance,26.813,87.579,95.34,61.787
+FOTO_crop,target_od680,OD680 / Biomass (AU),G_mean,RGB Reflectance,14.811,97.509,14.736,43.74
+FOTO_crop,target_od680,OD680 / Biomass (AU),B_mean,RGB Reflectance,44.57,94.39,78.164,68.725
+FOTO_crop,target_od680,OD680 / Biomass (AU),R_std,RGB Reflectance,30.543,52.456,0.511,32.206
+FOTO_crop,target_od680,OD680 / Biomass (AU),G_std,RGB Reflectance,23.114,62.511,6.473,33.575
+FOTO_crop,target_od680,OD680 / Biomass (AU),B_std,RGB Reflectance,21.844,46.263,2.727,26.567
+FOTO_crop,target_od680,OD680 / Biomass (AU),ExG_index,Algal Pigment Indices,30.08,40.063,39.73,35.504
+FOTO_crop,target_od680,OD680 / Biomass (AU),G_R_ratio,Algal Pigment Indices,19.309,54.77,94.969,46.852
+FOTO_crop,target_od680,OD680 / Biomass (AU),NGRDI,Algal Pigment Indices,36.927,54.855,100.0,55.817
+FOTO_crop,target_od680,OD680 / Biomass (AU),B_G_ratio,Algal Pigment Indices,9.455,42.973,12.911,21.878
+FOTO_crop,target_od680,OD680 / Biomass (AU),HSV_H_mean,HSV & CIE L*a*b*,11.106,47.116,2.204,21.929
+FOTO_crop,target_od680,OD680 / Biomass (AU),HSV_S_mean,HSV & CIE L*a*b*,40.252,36.084,2.468,31.236
+FOTO_crop,target_od680,OD680 / Biomass (AU),HSV_V_mean,HSV & CIE L*a*b*,26.353,95.754,9.344,47.242
+FOTO_crop,target_od680,OD680 / Biomass (AU),LAB_L_mean,HSV & CIE L*a*b*,9.838,100.0,53.288,50.085
+FOTO_crop,target_od680,OD680 / Biomass (AU),LAB_a_mean,HSV & CIE L*a*b*,79.668,47.602,17.605,56.032
+FOTO_crop,target_od680,OD680 / Biomass (AU),LAB_b_mean,HSV & CIE L*a*b*,13.738,53.145,66.347,38.052
+FOTO_crop,target_od680,OD680 / Biomass (AU),Optical_Darkness,Optical & Spatial Texture,19.945,99.224,28.771,49.458
+FOTO_crop,target_od680,OD680 / Biomass (AU),Shannon_Entropy,Optical & Spatial Texture,27.388,53.559,1.617,31.394
+FOTO_crop,target_od680,OD680 / Biomass (AU),Gradient_Edge_Energy,Optical & Spatial Texture,100.0,49.987,2.513,62.998
+FOTO_crop,target_od680,OD680 / Biomass (AU),Center_Border_Contrast,Optical & Spatial Texture,14.772,31.576,2.987,18.296
+FOTO_crop,target_log_cod,log1p(COD) (mg/L),R_mean,RGB Reflectance,27.545,89.734,39.089,51.62
+FOTO_crop,target_log_cod,log1p(COD) (mg/L),G_mean,RGB Reflectance,26.724,97.79,17.317,49.716
+FOTO_crop,target_log_cod,log1p(COD) (mg/L),B_mean,RGB Reflectance,45.076,94.13,10.67,55.364
+FOTO_crop,target_log_cod,log1p(COD) (mg/L),R_std,RGB Reflectance,100.0,57.403,7.477,66.586
+FOTO_crop,target_log_cod,log1p(COD) (mg/L),G_std,RGB Reflectance,29.016,68.549,8.682,38.786
+FOTO_crop,target_log_cod,log1p(COD) (mg/L),B_std,RGB Reflectance,30.29,48.533,2.025,31.022
+FOTO_crop,target_log_cod,log1p(COD) (mg/L),ExG_index,Algal Pigment Indices,15.053,35.805,16.668,22.639
+FOTO_crop,target_log_cod,log1p(COD) (mg/L),G_R_ratio,Algal Pigment Indices,56.36,50.749,37.719,50.668
+FOTO_crop,target_log_cod,log1p(COD) (mg/L),NGRDI,Algal Pigment Indices,50.358,51.049,39.834,48.495
+FOTO_crop,target_log_cod,log1p(COD) (mg/L),B_G_ratio,Algal Pigment Indices,14.63,48.862,3.909,24.467
+FOTO_crop,target_log_cod,log1p(COD) (mg/L),HSV_H_mean,HSV & CIE L*a*b*,11.931,50.401,0.478,23.105
+FOTO_crop,target_log_cod,log1p(COD) (mg/L),HSV_S_mean,HSV & CIE L*a*b*,22.436,36.525,3.731,23.626
+FOTO_crop,target_log_cod,log1p(COD) (mg/L),HSV_V_mean,HSV & CIE L*a*b*,50.035,96.214,30.039,62.199
+FOTO_crop,target_log_cod,log1p(COD) (mg/L),LAB_L_mean,HSV & CIE L*a*b*,7.288,98.346,100.0,57.701
+FOTO_crop,target_log_cod,log1p(COD) (mg/L),LAB_a_mean,HSV & CIE L*a*b*,35.929,39.439,7.988,31.569
+FOTO_crop,target_log_cod,log1p(COD) (mg/L),LAB_b_mean,HSV & CIE L*a*b*,38.275,56.436,17.795,40.535
+FOTO_crop,target_log_cod,log1p(COD) (mg/L),Optical_Darkness,Optical & Spatial Texture,14.677,100.0,20.884,45.781
+FOTO_crop,target_log_cod,log1p(COD) (mg/L),Shannon_Entropy,Optical & Spatial Texture,25.854,60.237,4.203,33.558
+FOTO_crop,target_log_cod,log1p(COD) (mg/L),Gradient_Edge_Energy,Optical & Spatial Texture,62.943,51.688,1.686,46.752
+FOTO_crop,target_log_cod,log1p(COD) (mg/L),Center_Border_Contrast,Optical & Spatial Texture,37.934,32.382,0.633,28.531
+FOTO_crop,target_log_tss,log1p(TSS) (mg/L),R_mean,RGB Reflectance,60.906,93.723,100.0,80.211
+FOTO_crop,target_log_tss,log1p(TSS) (mg/L),G_mean,RGB Reflectance,12.949,97.409,0.811,40.083
+FOTO_crop,target_log_tss,log1p(TSS) (mg/L),B_mean,RGB Reflectance,95.651,97.94,99.883,97.299
+FOTO_crop,target_log_tss,log1p(TSS) (mg/L),R_std,RGB Reflectance,21.881,57.718,0.83,30.214
+FOTO_crop,target_log_tss,log1p(TSS) (mg/L),G_std,RGB Reflectance,61.229,65.41,1.69,50.785
+FOTO_crop,target_log_tss,log1p(TSS) (mg/L),B_std,RGB Reflectance,100.0,49.736,2.865,62.981
+FOTO_crop,target_log_tss,log1p(TSS) (mg/L),ExG_index,Algal Pigment Indices,9.033,36.222,6.318,18.006
+FOTO_crop,target_log_tss,log1p(TSS) (mg/L),G_R_ratio,Algal Pigment Indices,24.178,48.595,16.557,31.2
+FOTO_crop,target_log_tss,log1p(TSS) (mg/L),NGRDI,Algal Pigment Indices,24.268,48.764,15.282,31.045
+FOTO_crop,target_log_tss,log1p(TSS) (mg/L),B_G_ratio,Algal Pigment Indices,3.375,44.978,5.0,18.261
+FOTO_crop,target_log_tss,log1p(TSS) (mg/L),HSV_H_mean,HSV & CIE L*a*b*,8.015,51.171,1.358,21.788
+FOTO_crop,target_log_tss,log1p(TSS) (mg/L),HSV_S_mean,HSV & CIE L*a*b*,16.849,31.775,0.772,18.858
+FOTO_crop,target_log_tss,log1p(TSS) (mg/L),HSV_V_mean,HSV & CIE L*a*b*,32.497,98.942,18.051,52.863
+FOTO_crop,target_log_tss,log1p(TSS) (mg/L),LAB_L_mean,HSV & CIE L*a*b*,6.124,98.76,36.65,44.652
+FOTO_crop,target_log_tss,log1p(TSS) (mg/L),LAB_a_mean,HSV & CIE L*a*b*,17.915,37.917,7.402,22.813
+FOTO_crop,target_log_tss,log1p(TSS) (mg/L),LAB_b_mean,HSV & CIE L*a*b*,15.016,58.52,45.479,36.335
+FOTO_crop,target_log_tss,log1p(TSS) (mg/L),Optical_Darkness,Optical & Spatial Texture,12.435,100.0,19.624,44.52
+FOTO_crop,target_log_tss,log1p(TSS) (mg/L),Shannon_Entropy,Optical & Spatial Texture,8.456,57.818,0.015,24.045
+FOTO_crop,target_log_tss,log1p(TSS) (mg/L),Gradient_Edge_Energy,Optical & Spatial Texture,43.061,54.234,0.229,38.405
+FOTO_crop,target_log_tss,log1p(TSS) (mg/L),Center_Border_Contrast,Optical & Spatial Texture,48.503,38.689,0.185,35.405
+FOTO_crop,target_ph,Water pH (-),R_mean,RGB Reflectance,30.206,85.855,7.061,45.054
+FOTO_crop,target_ph,Water pH (-),G_mean,RGB Reflectance,11.279,98.141,20.974,43.62
+FOTO_crop,target_ph,Water pH (-),B_mean,RGB Reflectance,40.642,94.252,54.457,62.168
+FOTO_crop,target_ph,Water pH (-),R_std,RGB Reflectance,47.322,55.451,0.959,40.895
+FOTO_crop,target_ph,Water pH (-),G_std,RGB Reflectance,19.203,65.859,1.251,31.942
+FOTO_crop,target_ph,Water pH (-),B_std,RGB Reflectance,37.743,47.507,1.939,34.0
+FOTO_crop,target_ph,Water pH (-),ExG_index,Algal Pigment Indices,47.156,37.44,27.309,39.786
+FOTO_crop,target_ph,Water pH (-),G_R_ratio,Algal Pigment Indices,12.822,51.976,24.428,28.847
+FOTO_crop,target_ph,Water pH (-),NGRDI,Algal Pigment Indices,16.021,51.843,21.696,29.694
+FOTO_crop,target_ph,Water pH (-),B_G_ratio,Algal Pigment Indices,10.236,44.207,8.19,21.717
+FOTO_crop,target_ph,Water pH (-),HSV_H_mean,HSV & CIE L*a*b*,8.714,48.476,1.259,21.14
+FOTO_crop,target_ph,Water pH (-),HSV_S_mean,HSV & CIE L*a*b*,12.456,32.491,1.008,17.179
+FOTO_crop,target_ph,Water pH (-),HSV_V_mean,HSV & CIE L*a*b*,100.0,95.283,18.777,82.105
+FOTO_crop,target_ph,Water pH (-),LAB_L_mean,HSV & CIE L*a*b*,6.599,99.094,100.0,57.652
+FOTO_crop,target_ph,Water pH (-),LAB_a_mean,HSV & CIE L*a*b*,10.12,40.743,22.936,23.401
+FOTO_crop,target_ph,Water pH (-),LAB_b_mean,HSV & CIE L*a*b*,16.321,54.17,34.463,33.196
+FOTO_crop,target_ph,Water pH (-),Optical_Darkness,Optical & Spatial Texture,7.933,100.0,16.432,41.856
+FOTO_crop,target_ph,Water pH (-),Shannon_Entropy,Optical & Spatial Texture,21.71,56.926,0.313,29.756
+FOTO_crop,target_ph,Water pH (-),Gradient_Edge_Energy,Optical & Spatial Texture,52.355,52.59,0.077,41.981
+FOTO_crop,target_ph,Water pH (-),Center_Border_Contrast,Optical & Spatial Texture,25.239,33.295,1.074,23.226
+FOTO1_crop,target_od680,OD680 / Biomass (AU),R_mean,RGB Reflectance,6.324,90.609,100.0,54.559
+FOTO1_crop,target_od680,OD680 / Biomass (AU),G_mean,RGB Reflectance,75.113,94.224,20.23,70.825
+FOTO1_crop,target_od680,OD680 / Biomass (AU),B_mean,RGB Reflectance,49.061,100.0,72.016,71.481
+FOTO1_crop,target_od680,OD680 / Biomass (AU),R_std,RGB Reflectance,100.0,45.166,6.717,62.152
+FOTO1_crop,target_od680,OD680 / Biomass (AU),G_std,RGB Reflectance,11.631,47.056,8.721,23.448
+FOTO1_crop,target_od680,OD680 / Biomass (AU),B_std,RGB Reflectance,12.042,44.822,6.787,22.464
+FOTO1_crop,target_od680,OD680 / Biomass (AU),ExG_index,Algal Pigment Indices,16.477,73.295,28.562,38.781
+FOTO1_crop,target_od680,OD680 / Biomass (AU),G_R_ratio,Algal Pigment Indices,4.243,87.726,16.311,35.876
+FOTO1_crop,target_od680,OD680 / Biomass (AU),NGRDI,Algal Pigment Indices,6.592,88.974,36.337,41.375
+FOTO1_crop,target_od680,OD680 / Biomass (AU),B_G_ratio,Algal Pigment Indices,13.325,54.276,0.441,25.081
+FOTO1_crop,target_od680,OD680 / Biomass (AU),HSV_H_mean,HSV & CIE L*a*b*,78.814,66.735,1.766,59.177
+FOTO1_crop,target_od680,OD680 / Biomass (AU),HSV_S_mean,HSV & CIE L*a*b*,8.807,67.65,10.852,29.811
+FOTO1_crop,target_od680,OD680 / Biomass (AU),HSV_V_mean,HSV & CIE L*a*b*,4.849,91.135,16.153,37.31
+FOTO1_crop,target_od680,OD680 / Biomass (AU),LAB_L_mean,HSV & CIE L*a*b*,17.219,91.549,53.469,50.484
+FOTO1_crop,target_od680,OD680 / Biomass (AU),LAB_a_mean,HSV & CIE L*a*b*,4.188,82.418,32.047,37.14
+FOTO1_crop,target_od680,OD680 / Biomass (AU),LAB_b_mean,HSV & CIE L*a*b*,14.981,78.068,53.629,44.791
+FOTO1_crop,target_od680,OD680 / Biomass (AU),Optical_Darkness,Optical & Spatial Texture,85.152,94.583,44.735,80.369
+FOTO1_crop,target_od680,OD680 / Biomass (AU),Shannon_Entropy,Optical & Spatial Texture,4.16,40.824,4.531,17.067
+FOTO1_crop,target_od680,OD680 / Biomass (AU),Gradient_Edge_Energy,Optical & Spatial Texture,10.58,53.645,0.23,23.583
+FOTO1_crop,target_od680,OD680 / Biomass (AU),Center_Border_Contrast,Optical & Spatial Texture,6.827,19.982,1.079,10.282
+FOTO1_crop,target_log_cod,log1p(COD) (mg/L),R_mean,RGB Reflectance,20.474,91.134,83.915,57.893
+FOTO1_crop,target_log_cod,log1p(COD) (mg/L),G_mean,RGB Reflectance,27.8,95.266,6.817,47.217
+FOTO1_crop,target_log_cod,log1p(COD) (mg/L),B_mean,RGB Reflectance,27.644,100.0,40.566,55.553
+FOTO1_crop,target_log_cod,log1p(COD) (mg/L),R_std,RGB Reflectance,43.309,45.85,6.332,36.803
+FOTO1_crop,target_log_cod,log1p(COD) (mg/L),G_std,RGB Reflectance,20.578,49.197,22.025,30.884
+FOTO1_crop,target_log_cod,log1p(COD) (mg/L),B_std,RGB Reflectance,35.426,46.159,16.927,35.483
+FOTO1_crop,target_log_cod,log1p(COD) (mg/L),ExG_index,Algal Pigment Indices,14.846,71.792,65.245,44.857
+FOTO1_crop,target_log_cod,log1p(COD) (mg/L),G_R_ratio,Algal Pigment Indices,21.063,83.161,37.782,46.141
+FOTO1_crop,target_log_cod,log1p(COD) (mg/L),NGRDI,Algal Pigment Indices,24.46,86.357,85.8,58.392
+FOTO1_crop,target_log_cod,log1p(COD) (mg/L),B_G_ratio,Algal Pigment Indices,43.609,61.789,1.375,41.525
+FOTO1_crop,target_log_cod,log1p(COD) (mg/L),HSV_H_mean,HSV & CIE L*a*b*,36.291,63.926,10.105,40.726
+FOTO1_crop,target_log_cod,log1p(COD) (mg/L),HSV_S_mean,HSV & CIE L*a*b*,68.698,70.898,30.179,61.764
+FOTO1_crop,target_log_cod,log1p(COD) (mg/L),HSV_V_mean,HSV & CIE L*a*b*,15.931,92.193,100.0,59.436
+FOTO1_crop,target_log_cod,log1p(COD) (mg/L),LAB_L_mean,HSV & CIE L*a*b*,26.076,92.394,15.965,47.265
+FOTO1_crop,target_log_cod,log1p(COD) (mg/L),LAB_a_mean,HSV & CIE L*a*b*,34.648,78.85,11.83,45.555
+FOTO1_crop,target_log_cod,log1p(COD) (mg/L),LAB_b_mean,HSV & CIE L*a*b*,100.0,78.561,30.592,78.615
+FOTO1_crop,target_log_cod,log1p(COD) (mg/L),Optical_Darkness,Optical & Spatial Texture,24.08,95.864,34.216,51.232
+FOTO1_crop,target_log_cod,log1p(COD) (mg/L),Shannon_Entropy,Optical & Spatial Texture,14.357,40.126,0.402,20.585
+FOTO1_crop,target_log_cod,log1p(COD) (mg/L),Gradient_Edge_Energy,Optical & Spatial Texture,46.896,54.469,9.142,41.995
+FOTO1_crop,target_log_cod,log1p(COD) (mg/L),Center_Border_Contrast,Optical & Spatial Texture,17.152,19.48,0.621,14.661
+FOTO1_crop,target_log_tss,log1p(TSS) (mg/L),R_mean,RGB Reflectance,8.852,91.525,42.372,44.491
+FOTO1_crop,target_log_tss,log1p(TSS) (mg/L),G_mean,RGB Reflectance,100.0,96.122,7.383,80.119
+FOTO1_crop,target_log_tss,log1p(TSS) (mg/L),B_mean,RGB Reflectance,21.355,100.0,31.397,50.889
+FOTO1_crop,target_log_tss,log1p(TSS) (mg/L),R_std,RGB Reflectance,2.031,49.04,2.557,18.589
+FOTO1_crop,target_log_tss,log1p(TSS) (mg/L),G_std,RGB Reflectance,2.002,56.075,7.13,21.953
+FOTO1_crop,target_log_tss,log1p(TSS) (mg/L),B_std,RGB Reflectance,5.969,51.16,8.226,22.237
+FOTO1_crop,target_log_tss,log1p(TSS) (mg/L),ExG_index,Algal Pigment Indices,4.444,72.177,13.498,29.961
+FOTO1_crop,target_log_tss,log1p(TSS) (mg/L),G_R_ratio,Algal Pigment Indices,2.842,82.75,6.838,31.609
+FOTO1_crop,target_log_tss,log1p(TSS) (mg/L),NGRDI,Algal Pigment Indices,3.264,86.513,3.145,32.377
+FOTO1_crop,target_log_tss,log1p(TSS) (mg/L),B_G_ratio,Algal Pigment Indices,6.949,58.658,2.769,24.211
+FOTO1_crop,target_log_tss,log1p(TSS) (mg/L),HSV_H_mean,HSV & CIE L*a*b*,5.424,66.944,2.772,26.426
+FOTO1_crop,target_log_tss,log1p(TSS) (mg/L),HSV_S_mean,HSV & CIE L*a*b*,4.844,70.25,2.319,27.231
+FOTO1_crop,target_log_tss,log1p(TSS) (mg/L),HSV_V_mean,HSV & CIE L*a*b*,10.046,91.764,100.0,56.638
+FOTO1_crop,target_log_tss,log1p(TSS) (mg/L),LAB_L_mean,HSV & CIE L*a*b*,13.959,92.335,43.611,47.321
+FOTO1_crop,target_log_tss,log1p(TSS) (mg/L),LAB_a_mean,HSV & CIE L*a*b*,7.249,76.037,14.069,32.689
+FOTO1_crop,target_log_tss,log1p(TSS) (mg/L),LAB_b_mean,HSV & CIE L*a*b*,5.991,80.633,12.08,33.333
+FOTO1_crop,target_log_tss,log1p(TSS) (mg/L),Optical_Darkness,Optical & Spatial Texture,4.908,94.467,18.188,38.91
+FOTO1_crop,target_log_tss,log1p(TSS) (mg/L),Shannon_Entropy,Optical & Spatial Texture,4.196,49.617,3.915,20.037
+FOTO1_crop,target_log_tss,log1p(TSS) (mg/L),Gradient_Edge_Energy,Optical & Spatial Texture,5.345,55.929,5.889,23.158
+FOTO1_crop,target_log_tss,log1p(TSS) (mg/L),Center_Border_Contrast,Optical & Spatial Texture,11.464,26.354,3.523,15.087
+FOTO1_crop,target_ph,Water pH (-),R_mean,RGB Reflectance,31.171,86.407,100.0,64.269
+FOTO1_crop,target_ph,Water pH (-),G_mean,RGB Reflectance,37.449,90.029,17.236,51.809
+FOTO1_crop,target_ph,Water pH (-),B_mean,RGB Reflectance,68.256,100.0,89.803,83.676
+FOTO1_crop,target_ph,Water pH (-),R_std,RGB Reflectance,41.844,46.412,8.908,36.855
+FOTO1_crop,target_ph,Water pH (-),G_std,RGB Reflectance,26.711,51.429,4.158,30.852
+FOTO1_crop,target_ph,Water pH (-),B_std,RGB Reflectance,31.268,42.318,9.916,30.865
+FOTO1_crop,target_ph,Water pH (-),ExG_index,Algal Pigment Indices,57.681,71.113,15.395,53.925
+FOTO1_crop,target_ph,Water pH (-),G_R_ratio,Algal Pigment Indices,11.775,86.074,16.918,38.808
+FOTO1_crop,target_ph,Water pH (-),NGRDI,Algal Pigment Indices,48.624,89.155,49.322,62.949
+FOTO1_crop,target_ph,Water pH (-),B_G_ratio,Algal Pigment Indices,28.384,52.7,0.665,31.351
+FOTO1_crop,target_ph,Water pH (-),HSV_H_mean,HSV & CIE L*a*b*,17.213,57.127,1.63,28.066
+FOTO1_crop,target_ph,Water pH (-),HSV_S_mean,HSV & CIE L*a*b*,24.579,68.48,4.141,35.857
+FOTO1_crop,target_ph,Water pH (-),HSV_V_mean,HSV & CIE L*a*b*,40.36,89.406,16.993,52.853
+FOTO1_crop,target_ph,Water pH (-),LAB_L_mean,HSV & CIE L*a*b*,24.314,88.554,29.63,47.861
+FOTO1_crop,target_ph,Water pH (-),LAB_a_mean,HSV & CIE L*a*b*,54.908,76.018,5.571,52.429
+FOTO1_crop,target_ph,Water pH (-),LAB_b_mean,HSV & CIE L*a*b*,100.0,73.827,67.585,84.357
+FOTO1_crop,target_ph,Water pH (-),Optical_Darkness,Optical & Spatial Texture,65.956,92.241,40.963,70.157
+FOTO1_crop,target_ph,Water pH (-),Shannon_Entropy,Optical & Spatial Texture,16.135,40.909,2.608,22.101
+FOTO1_crop,target_ph,Water pH (-),Gradient_Edge_Energy,Optical & Spatial Texture,12.604,52.48,2.874,24.615
+FOTO1_crop,target_ph,Water pH (-),Center_Border_Contrast,Optical & Spatial Texture,24.02,23.151,1.558,19.223

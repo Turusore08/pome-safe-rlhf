@@ -1,0 +1,5 @@
+source_key,ckpt_path,n_train,n_val,val_mse,val_r2,ood_r2,ood_cod_r2,ood_od680_r2,indexed_cultivations
+Baseline,/home/turusore08/Desktop/KP/pome-safe-rlhf/code/checkpoints/vision_encoder_baseline.pt,504,126,0.3753,0.5946,-1.5315,-1.9069,-0.8685,16
+FOTO_crop,/home/turusore08/Desktop/KP/pome-safe-rlhf/code/checkpoints/vision_encoder_foto_crop.pt,896,224,0.5898,0.4589,-2.4607,-2.4367,-0.8129,16
+FOTO1_crop,/home/turusore08/Desktop/KP/pome-safe-rlhf/code/checkpoints/vision_encoder_foto1_crop.pt,546,137,0.6324,0.4386,-28.7528,-9.3868,-2.8578,11
+Dual_Crop,/home/turusore08/Desktop/KP/pome-safe-rlhf/code/checkpoints/vision_encoder_dual_crop.pt,896,224,0.5999,0.4461,-3.786,-2.551,-0.9489,16

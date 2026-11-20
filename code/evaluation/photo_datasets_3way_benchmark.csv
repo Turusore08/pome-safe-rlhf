@@ -1,0 +1,266 @@
+scope,eval_mode,dataset,n_samples,n_cultivations,representation,target,target_label,r2,rmse,spearman
+Full_Matched,5fold,Baseline,5356,16,RF (20 Optical Features),target_od680,OD680 / Biomass (AU),0.7719,0.2301,0.9189
+Full_Matched,5fold,Baseline,5356,16,RF (20 Optical Features),target_log_cod,log1p(COD) (mg/L),0.8835,0.3953,0.9429
+Full_Matched,5fold,Baseline,5356,16,RF (20 Optical Features),target_log_tss,log1p(TSS) (mg/L),0.8758,0.3542,0.8864
+Full_Matched,5fold,Baseline,5356,16,RF (20 Optical Features),target_ph,Water pH (-),0.8632,0.208,0.9329
+Full_Matched,5fold,Baseline,5356,16,RF (Top-10 Selected),target_od680,OD680 / Biomass (AU),0.7651,0.2335,0.9174
+Full_Matched,5fold,Baseline,5356,16,RF (Top-10 Selected),target_log_cod,log1p(COD) (mg/L),0.8742,0.4107,0.9377
+Full_Matched,5fold,Baseline,5356,16,RF (Top-10 Selected),target_log_tss,log1p(TSS) (mg/L),0.8704,0.3618,0.8798
+Full_Matched,5fold,Baseline,5356,16,RF (Top-10 Selected),target_ph,Water pH (-),0.856,0.2133,0.9301
+Full_Matched,5fold,Baseline,5356,16,GBR (Top-10 Selected),target_od680,OD680 / Biomass (AU),0.7249,0.2527,0.8677
+Full_Matched,5fold,Baseline,5356,16,GBR (Top-10 Selected),target_log_cod,log1p(COD) (mg/L),0.7352,0.5958,0.8785
+Full_Matched,5fold,Baseline,5356,16,GBR (Top-10 Selected),target_log_tss,log1p(TSS) (mg/L),0.8521,0.3865,0.8168
+Full_Matched,5fold,Baseline,5356,16,GBR (Top-10 Selected),target_ph,Water pH (-),0.7704,0.2694,0.8839
+Full_Matched,5fold,Baseline,5356,16,ConvNeXt Baseline h_z (32-Dim),target_od680,OD680 / Biomass (AU),0.3956,0.3746,0.8004
+Full_Matched,5fold,Baseline,5356,16,ConvNeXt Baseline h_z (32-Dim),target_log_cod,log1p(COD) (mg/L),0.6263,0.7078,0.8249
+Full_Matched,5fold,Baseline,5356,16,ConvNeXt Baseline h_z (32-Dim),target_log_tss,log1p(TSS) (mg/L),0.765,0.4872,0.6837
+Full_Matched,5fold,Baseline,5356,16,ConvNeXt Baseline h_z (32-Dim),target_ph,Water pH (-),0.4699,0.4094,0.7225
+Full_Matched,5fold,Baseline,5356,16,Hybrid (Top-10 + ConvNeXt 32-Dim),target_od680,OD680 / Biomass (AU),0.8689,0.1744,0.9654
+Full_Matched,5fold,Baseline,5356,16,Hybrid (Top-10 + ConvNeXt 32-Dim),target_log_cod,log1p(COD) (mg/L),0.9314,0.3032,0.9694
+Full_Matched,5fold,Baseline,5356,16,Hybrid (Top-10 + ConvNeXt 32-Dim),target_log_tss,log1p(TSS) (mg/L),0.9246,0.2759,0.9339
+Full_Matched,5fold,Baseline,5356,16,Hybrid (Top-10 + ConvNeXt 32-Dim),target_ph,Water pH (-),0.9169,0.1621,0.9636
+Full_Matched,group_cult,Baseline,5356,16,RF (20 Optical Features),target_od680,OD680 / Biomass (AU),-0.2689,0.5428,0.0894
+Full_Matched,group_cult,Baseline,5356,16,RF (20 Optical Features),target_log_cod,log1p(COD) (mg/L),-0.4744,1.4059,0.0426
+Full_Matched,group_cult,Baseline,5356,16,RF (20 Optical Features),target_log_tss,log1p(TSS) (mg/L),-0.1068,1.0573,0.1201
+Full_Matched,group_cult,Baseline,5356,16,RF (20 Optical Features),target_ph,Water pH (-),0.0346,0.5524,0.4331
+Full_Matched,group_cult,Baseline,5356,16,RF (Top-10 Selected),target_od680,OD680 / Biomass (AU),-0.2946,0.5482,0.016
+Full_Matched,group_cult,Baseline,5356,16,RF (Top-10 Selected),target_log_cod,log1p(COD) (mg/L),-0.502,1.419,-0.0618
+Full_Matched,group_cult,Baseline,5356,16,RF (Top-10 Selected),target_log_tss,log1p(TSS) (mg/L),-0.1069,1.0573,0.0452
+Full_Matched,group_cult,Baseline,5356,16,RF (Top-10 Selected),target_ph,Water pH (-),0.082,0.5387,0.4782
+Full_Matched,group_cult,Baseline,5356,16,GBR (Top-10 Selected),target_od680,OD680 / Biomass (AU),-0.3494,0.5597,-0.0743
+Full_Matched,group_cult,Baseline,5356,16,GBR (Top-10 Selected),target_log_cod,log1p(COD) (mg/L),-0.43,1.3846,-0.007
+Full_Matched,group_cult,Baseline,5356,16,GBR (Top-10 Selected),target_log_tss,log1p(TSS) (mg/L),-0.0328,1.0213,0.1716
+Full_Matched,group_cult,Baseline,5356,16,GBR (Top-10 Selected),target_ph,Water pH (-),0.0373,0.5517,0.468
+Full_Matched,group_cult,Baseline,5356,16,ConvNeXt Baseline h_z (32-Dim),target_od680,OD680 / Biomass (AU),-0.067,0.4977,0.6158
+Full_Matched,group_cult,Baseline,5356,16,ConvNeXt Baseline h_z (32-Dim),target_log_cod,log1p(COD) (mg/L),0.2324,1.0144,0.6411
+Full_Matched,group_cult,Baseline,5356,16,ConvNeXt Baseline h_z (32-Dim),target_log_tss,log1p(TSS) (mg/L),0.4441,0.7493,0.371
+Full_Matched,group_cult,Baseline,5356,16,ConvNeXt Baseline h_z (32-Dim),target_ph,Water pH (-),-0.2397,0.626,0.2499
+Full_Matched,group_cult,Baseline,5356,16,Hybrid (Top-10 + ConvNeXt 32-Dim),target_od680,OD680 / Biomass (AU),-0.0936,0.5039,0.5188
+Full_Matched,group_cult,Baseline,5356,16,Hybrid (Top-10 + ConvNeXt 32-Dim),target_log_cod,log1p(COD) (mg/L),0.2808,0.9819,0.6173
+Full_Matched,group_cult,Baseline,5356,16,Hybrid (Top-10 + ConvNeXt 32-Dim),target_log_tss,log1p(TSS) (mg/L),0.5151,0.6998,0.4583
+Full_Matched,group_cult,Baseline,5356,16,Hybrid (Top-10 + ConvNeXt 32-Dim),target_ph,Water pH (-),-0.038,0.5728,0.412
+Full_Matched,5fold,FOTO_crop,5328,16,RF (20 Optical Features),target_od680,OD680 / Biomass (AU),0.6016,0.3044,0.8713
+Full_Matched,5fold,FOTO_crop,5328,16,RF (20 Optical Features),target_log_cod,log1p(COD) (mg/L),0.7911,0.5309,0.9043
+Full_Matched,5fold,FOTO_crop,5328,16,RF (20 Optical Features),target_log_tss,log1p(TSS) (mg/L),0.8135,0.4342,0.8451
+Full_Matched,5fold,FOTO_crop,5328,16,RF (20 Optical Features),target_ph,Water pH (-),0.6947,0.3126,0.8502
+Full_Matched,5fold,FOTO_crop,5328,16,RF (Top-10 Selected),target_od680,OD680 / Biomass (AU),0.5938,0.3074,0.8689
+Full_Matched,5fold,FOTO_crop,5328,16,RF (Top-10 Selected),target_log_cod,log1p(COD) (mg/L),0.7833,0.5407,0.9007
+Full_Matched,5fold,FOTO_crop,5328,16,RF (Top-10 Selected),target_log_tss,log1p(TSS) (mg/L),0.8029,0.4464,0.8424
+Full_Matched,5fold,FOTO_crop,5328,16,RF (Top-10 Selected),target_ph,Water pH (-),0.6828,0.3187,0.8412
+Full_Matched,5fold,FOTO_crop,5328,16,GBR (Top-10 Selected),target_od680,OD680 / Biomass (AU),0.4829,0.3469,0.7943
+Full_Matched,5fold,FOTO_crop,5328,16,GBR (Top-10 Selected),target_log_cod,log1p(COD) (mg/L),0.6491,0.6881,0.8317
+Full_Matched,5fold,FOTO_crop,5328,16,GBR (Top-10 Selected),target_log_tss,log1p(TSS) (mg/L),0.729,0.5234,0.7358
+Full_Matched,5fold,FOTO_crop,5328,16,GBR (Top-10 Selected),target_ph,Water pH (-),0.571,0.3706,0.7828
+Full_Matched,5fold,FOTO_crop,5328,16,ConvNeXt Baseline h_z (32-Dim),target_od680,OD680 / Biomass (AU),0.174,0.4384,0.4796
+Full_Matched,5fold,FOTO_crop,5328,16,ConvNeXt Baseline h_z (32-Dim),target_log_cod,log1p(COD) (mg/L),0.2943,0.9758,0.5514
+Full_Matched,5fold,FOTO_crop,5328,16,ConvNeXt Baseline h_z (32-Dim),target_log_tss,log1p(TSS) (mg/L),0.2204,0.8878,0.464
+Full_Matched,5fold,FOTO_crop,5328,16,ConvNeXt Baseline h_z (32-Dim),target_ph,Water pH (-),0.1919,0.5086,0.4361
+Full_Matched,5fold,FOTO_crop,5328,16,Hybrid (Top-10 + ConvNeXt 32-Dim),target_od680,OD680 / Biomass (AU),0.6322,0.2925,0.8922
+Full_Matched,5fold,FOTO_crop,5328,16,Hybrid (Top-10 + ConvNeXt 32-Dim),target_log_cod,log1p(COD) (mg/L),0.8059,0.5117,0.9135
+Full_Matched,5fold,FOTO_crop,5328,16,Hybrid (Top-10 + ConvNeXt 32-Dim),target_log_tss,log1p(TSS) (mg/L),0.8057,0.4432,0.8516
+Full_Matched,5fold,FOTO_crop,5328,16,Hybrid (Top-10 + ConvNeXt 32-Dim),target_ph,Water pH (-),0.7416,0.2876,0.8785
+Full_Matched,group_cult,FOTO_crop,5328,16,RF (20 Optical Features),target_od680,OD680 / Biomass (AU),-0.759,0.6397,-0.1161
+Full_Matched,group_cult,FOTO_crop,5328,16,RF (20 Optical Features),target_log_cod,log1p(COD) (mg/L),-0.4631,1.4051,0.0207
+Full_Matched,group_cult,FOTO_crop,5328,16,RF (20 Optical Features),target_log_tss,log1p(TSS) (mg/L),-0.5193,1.2393,0.0711
+Full_Matched,group_cult,FOTO_crop,5328,16,RF (20 Optical Features),target_ph,Water pH (-),-0.7407,0.7465,-0.207
+Full_Matched,group_cult,FOTO_crop,5328,16,RF (Top-10 Selected),target_od680,OD680 / Biomass (AU),-0.7079,0.6304,-0.0875
+Full_Matched,group_cult,FOTO_crop,5328,16,RF (Top-10 Selected),target_log_cod,log1p(COD) (mg/L),-0.4492,1.3984,0.0644
+Full_Matched,group_cult,FOTO_crop,5328,16,RF (Top-10 Selected),target_log_tss,log1p(TSS) (mg/L),-0.4078,1.193,0.0964
+Full_Matched,group_cult,FOTO_crop,5328,16,RF (Top-10 Selected),target_ph,Water pH (-),-0.7609,0.7508,-0.2491
+Full_Matched,group_cult,FOTO_crop,5328,16,GBR (Top-10 Selected),target_od680,OD680 / Biomass (AU),-0.601,0.6103,0.0025
+Full_Matched,group_cult,FOTO_crop,5328,16,GBR (Top-10 Selected),target_log_cod,log1p(COD) (mg/L),-0.522,1.4331,0.0306
+Full_Matched,group_cult,FOTO_crop,5328,16,GBR (Top-10 Selected),target_log_tss,log1p(TSS) (mg/L),-0.325,1.1574,0.1344
+Full_Matched,group_cult,FOTO_crop,5328,16,GBR (Top-10 Selected),target_ph,Water pH (-),-0.5328,0.7005,-0.1939
+Full_Matched,group_cult,FOTO_crop,5328,16,ConvNeXt Baseline h_z (32-Dim),target_od680,OD680 / Biomass (AU),-0.6496,0.6195,-0.0341
+Full_Matched,group_cult,FOTO_crop,5328,16,ConvNeXt Baseline h_z (32-Dim),target_log_cod,log1p(COD) (mg/L),-0.2557,1.3017,0.1741
+Full_Matched,group_cult,FOTO_crop,5328,16,ConvNeXt Baseline h_z (32-Dim),target_log_tss,log1p(TSS) (mg/L),-0.2417,1.1204,0.1948
+Full_Matched,group_cult,FOTO_crop,5328,16,ConvNeXt Baseline h_z (32-Dim),target_ph,Water pH (-),-0.9055,0.7811,-0.5218
+Full_Matched,group_cult,FOTO_crop,5328,16,Hybrid (Top-10 + ConvNeXt 32-Dim),target_od680,OD680 / Biomass (AU),-0.694,0.6278,0.0031
+Full_Matched,group_cult,FOTO_crop,5328,16,Hybrid (Top-10 + ConvNeXt 32-Dim),target_log_cod,log1p(COD) (mg/L),-0.3981,1.3735,0.0297
+Full_Matched,group_cult,FOTO_crop,5328,16,Hybrid (Top-10 + ConvNeXt 32-Dim),target_log_tss,log1p(TSS) (mg/L),-0.3222,1.1561,0.107
+Full_Matched,group_cult,FOTO_crop,5328,16,Hybrid (Top-10 + ConvNeXt 32-Dim),target_ph,Water pH (-),-0.4324,0.6772,-0.1108
+Full_Matched,5fold,FOTO1_crop,2613,11,RF (20 Optical Features),target_od680,OD680 / Biomass (AU),0.8423,0.2296,0.926
+Full_Matched,5fold,FOTO1_crop,2613,11,RF (20 Optical Features),target_log_cod,log1p(COD) (mg/L),0.8305,0.464,0.9083
+Full_Matched,5fold,FOTO1_crop,2613,11,RF (20 Optical Features),target_log_tss,log1p(TSS) (mg/L),0.8864,0.3614,0.9006
+Full_Matched,5fold,FOTO1_crop,2613,11,RF (20 Optical Features),target_ph,Water pH (-),0.8945,0.1633,0.9415
+Full_Matched,5fold,FOTO1_crop,2613,11,RF (Top-10 Selected),target_od680,OD680 / Biomass (AU),0.8188,0.2461,0.9183
+Full_Matched,5fold,FOTO1_crop,2613,11,RF (Top-10 Selected),target_log_cod,log1p(COD) (mg/L),0.8051,0.4975,0.8878
+Full_Matched,5fold,FOTO1_crop,2613,11,RF (Top-10 Selected),target_log_tss,log1p(TSS) (mg/L),0.8781,0.3745,0.8894
+Full_Matched,5fold,FOTO1_crop,2613,11,RF (Top-10 Selected),target_ph,Water pH (-),0.8782,0.1755,0.9355
+Full_Matched,5fold,FOTO1_crop,2613,11,GBR (Top-10 Selected),target_od680,OD680 / Biomass (AU),0.8245,0.2423,0.8921
+Full_Matched,5fold,FOTO1_crop,2613,11,GBR (Top-10 Selected),target_log_cod,log1p(COD) (mg/L),0.7341,0.5811,0.8407
+Full_Matched,5fold,FOTO1_crop,2613,11,GBR (Top-10 Selected),target_log_tss,log1p(TSS) (mg/L),0.8652,0.3938,0.8597
+Full_Matched,5fold,FOTO1_crop,2613,11,GBR (Top-10 Selected),target_ph,Water pH (-),0.836,0.2036,0.9083
+Full_Matched,5fold,FOTO1_crop,2613,11,ConvNeXt Baseline h_z (32-Dim),target_od680,OD680 / Biomass (AU),0.204,0.5159,0.4904
+Full_Matched,5fold,FOTO1_crop,2613,11,ConvNeXt Baseline h_z (32-Dim),target_log_cod,log1p(COD) (mg/L),0.1374,1.0468,0.3647
+Full_Matched,5fold,FOTO1_crop,2613,11,ConvNeXt Baseline h_z (32-Dim),target_log_tss,log1p(TSS) (mg/L),0.2718,0.9152,0.4332
+Full_Matched,5fold,FOTO1_crop,2613,11,ConvNeXt Baseline h_z (32-Dim),target_ph,Water pH (-),0.3245,0.4133,0.6284
+Full_Matched,5fold,FOTO1_crop,2613,11,Hybrid (Top-10 + ConvNeXt 32-Dim),target_od680,OD680 / Biomass (AU),0.8023,0.2571,0.9116
+Full_Matched,5fold,FOTO1_crop,2613,11,Hybrid (Top-10 + ConvNeXt 32-Dim),target_log_cod,log1p(COD) (mg/L),0.7915,0.5146,0.8797
+Full_Matched,5fold,FOTO1_crop,2613,11,Hybrid (Top-10 + ConvNeXt 32-Dim),target_log_tss,log1p(TSS) (mg/L),0.8712,0.3849,0.8896
+Full_Matched,5fold,FOTO1_crop,2613,11,Hybrid (Top-10 + ConvNeXt 32-Dim),target_ph,Water pH (-),0.8684,0.1824,0.9331
+Full_Matched,group_cult,FOTO1_crop,2613,11,RF (20 Optical Features),target_od680,OD680 / Biomass (AU),-2.3923,1.065,-0.3552
+Full_Matched,group_cult,FOTO1_crop,2613,11,RF (20 Optical Features),target_log_cod,log1p(COD) (mg/L),-1.436,1.759,-0.2427
+Full_Matched,group_cult,FOTO1_crop,2613,11,RF (20 Optical Features),target_log_tss,log1p(TSS) (mg/L),-0.545,1.3331,-0.174
+Full_Matched,group_cult,FOTO1_crop,2613,11,RF (20 Optical Features),target_ph,Water pH (-),-0.9936,0.71,0.0463
+Full_Matched,group_cult,FOTO1_crop,2613,11,RF (Top-10 Selected),target_od680,OD680 / Biomass (AU),-1.5684,0.9267,-0.3181
+Full_Matched,group_cult,FOTO1_crop,2613,11,RF (Top-10 Selected),target_log_cod,log1p(COD) (mg/L),-1.0573,1.6165,-0.2063
+Full_Matched,group_cult,FOTO1_crop,2613,11,RF (Top-10 Selected),target_log_tss,log1p(TSS) (mg/L),-0.5599,1.3395,-0.1424
+Full_Matched,group_cult,FOTO1_crop,2613,11,RF (Top-10 Selected),target_ph,Water pH (-),-0.9655,0.705,0.0398
+Full_Matched,group_cult,FOTO1_crop,2613,11,GBR (Top-10 Selected),target_od680,OD680 / Biomass (AU),-1.5452,0.9225,-0.2623
+Full_Matched,group_cult,FOTO1_crop,2613,11,GBR (Top-10 Selected),target_log_cod,log1p(COD) (mg/L),-0.9915,1.5904,-0.2525
+Full_Matched,group_cult,FOTO1_crop,2613,11,GBR (Top-10 Selected),target_log_tss,log1p(TSS) (mg/L),-0.5688,1.3433,-0.273
+Full_Matched,group_cult,FOTO1_crop,2613,11,GBR (Top-10 Selected),target_ph,Water pH (-),-1.0698,0.7235,-0.0735
+Full_Matched,group_cult,FOTO1_crop,2613,11,ConvNeXt Baseline h_z (32-Dim),target_od680,OD680 / Biomass (AU),-10.4056,1.9528,-0.6428
+Full_Matched,group_cult,FOTO1_crop,2613,11,ConvNeXt Baseline h_z (32-Dim),target_log_cod,log1p(COD) (mg/L),-6.6196,3.111,-0.1765
+Full_Matched,group_cult,FOTO1_crop,2613,11,ConvNeXt Baseline h_z (32-Dim),target_log_tss,log1p(TSS) (mg/L),-13.0916,4.026,-0.1182
+Full_Matched,group_cult,FOTO1_crop,2613,11,ConvNeXt Baseline h_z (32-Dim),target_ph,Water pH (-),-5.7948,1.3108,-0.2485
+Full_Matched,group_cult,FOTO1_crop,2613,11,Hybrid (Top-10 + ConvNeXt 32-Dim),target_od680,OD680 / Biomass (AU),-1.9405,0.9915,-0.303
+Full_Matched,group_cult,FOTO1_crop,2613,11,Hybrid (Top-10 + ConvNeXt 32-Dim),target_log_cod,log1p(COD) (mg/L),-1.0315,1.6063,-0.2156
+Full_Matched,group_cult,FOTO1_crop,2613,11,Hybrid (Top-10 + ConvNeXt 32-Dim),target_log_tss,log1p(TSS) (mg/L),-0.5539,1.3369,-0.1521
+Full_Matched,group_cult,FOTO1_crop,2613,11,Hybrid (Top-10 + ConvNeXt 32-Dim),target_ph,Water pH (-),-0.9722,0.7062,-0.0545
+Common_Intersection,5fold,Baseline,2582,11,RF (20 Optical Features),target_od680,OD680 / Biomass (AU),0.7799,0.2727,0.9494
+Common_Intersection,5fold,Baseline,2582,11,RF (20 Optical Features),target_log_cod,log1p(COD) (mg/L),0.845,0.4454,0.9253
+Common_Intersection,5fold,Baseline,2582,11,RF (20 Optical Features),target_log_tss,log1p(TSS) (mg/L),0.8946,0.35,0.885
+Common_Intersection,5fold,Baseline,2582,11,RF (20 Optical Features),target_ph,Water pH (-),0.8501,0.1948,0.9282
+Common_Intersection,5fold,Baseline,2582,11,RF (Top-10 Selected),target_od680,OD680 / Biomass (AU),0.7424,0.295,0.9482
+Common_Intersection,5fold,Baseline,2582,11,RF (Top-10 Selected),target_log_cod,log1p(COD) (mg/L),0.8283,0.4688,0.9167
+Common_Intersection,5fold,Baseline,2582,11,RF (Top-10 Selected),target_log_tss,log1p(TSS) (mg/L),0.898,0.3442,0.8882
+Common_Intersection,5fold,Baseline,2582,11,RF (Top-10 Selected),target_ph,Water pH (-),0.8459,0.1976,0.9286
+Common_Intersection,5fold,Baseline,2582,11,GBR (Top-10 Selected),target_od680,OD680 / Biomass (AU),0.7873,0.2681,0.9145
+Common_Intersection,5fold,Baseline,2582,11,GBR (Top-10 Selected),target_log_cod,log1p(COD) (mg/L),0.7933,0.5144,0.8914
+Common_Intersection,5fold,Baseline,2582,11,GBR (Top-10 Selected),target_log_tss,log1p(TSS) (mg/L),0.8801,0.3732,0.8614
+Common_Intersection,5fold,Baseline,2582,11,GBR (Top-10 Selected),target_ph,Water pH (-),0.8263,0.2097,0.9024
+Common_Intersection,5fold,Baseline,2582,11,ConvNeXt Baseline h_z (32-Dim),target_od680,OD680 / Biomass (AU),0.4072,0.4475,0.7685
+Common_Intersection,5fold,Baseline,2582,11,ConvNeXt Baseline h_z (32-Dim),target_log_cod,log1p(COD) (mg/L),0.5592,0.7511,0.7892
+Common_Intersection,5fold,Baseline,2582,11,ConvNeXt Baseline h_z (32-Dim),target_log_tss,log1p(TSS) (mg/L),0.7632,0.5245,0.7076
+Common_Intersection,5fold,Baseline,2582,11,ConvNeXt Baseline h_z (32-Dim),target_ph,Water pH (-),0.5247,0.347,0.7607
+Common_Intersection,5fold,Baseline,2582,11,Hybrid (Top-10 + ConvNeXt 32-Dim),target_od680,OD680 / Biomass (AU),0.8338,0.2369,0.9633
+Common_Intersection,5fold,Baseline,2582,11,Hybrid (Top-10 + ConvNeXt 32-Dim),target_log_cod,log1p(COD) (mg/L),0.9014,0.3553,0.9504
+Common_Intersection,5fold,Baseline,2582,11,Hybrid (Top-10 + ConvNeXt 32-Dim),target_log_tss,log1p(TSS) (mg/L),0.9199,0.3051,0.9274
+Common_Intersection,5fold,Baseline,2582,11,Hybrid (Top-10 + ConvNeXt 32-Dim),target_ph,Water pH (-),0.8843,0.1712,0.9538
+Common_Intersection,group_cult,Baseline,2582,11,RF (20 Optical Features),target_od680,OD680 / Biomass (AU),-0.5619,0.7264,-0.0003
+Common_Intersection,group_cult,Baseline,2582,11,RF (20 Optical Features),target_log_cod,log1p(COD) (mg/L),-0.9394,1.5755,-0.1064
+Common_Intersection,group_cult,Baseline,2582,11,RF (20 Optical Features),target_log_tss,log1p(TSS) (mg/L),-0.3452,1.2501,-0.0701
+Common_Intersection,group_cult,Baseline,2582,11,RF (20 Optical Features),target_ph,Water pH (-),-0.9027,0.6941,0.0567
+Common_Intersection,group_cult,Baseline,2582,11,RF (Top-10 Selected),target_od680,OD680 / Biomass (AU),-0.5213,0.7169,0.0135
+Common_Intersection,group_cult,Baseline,2582,11,RF (Top-10 Selected),target_log_cod,log1p(COD) (mg/L),-0.776,1.5077,-0.1285
+Common_Intersection,group_cult,Baseline,2582,11,RF (Top-10 Selected),target_log_tss,log1p(TSS) (mg/L),-0.401,1.2757,-0.1733
+Common_Intersection,group_cult,Baseline,2582,11,RF (Top-10 Selected),target_ph,Water pH (-),-1.7044,0.8276,-0.0972
+Common_Intersection,group_cult,Baseline,2582,11,GBR (Top-10 Selected),target_od680,OD680 / Biomass (AU),-0.8889,0.7989,-0.2444
+Common_Intersection,group_cult,Baseline,2582,11,GBR (Top-10 Selected),target_log_cod,log1p(COD) (mg/L),-0.7918,1.5144,-0.116
+Common_Intersection,group_cult,Baseline,2582,11,GBR (Top-10 Selected),target_log_tss,log1p(TSS) (mg/L),-0.4518,1.2986,-0.4169
+Common_Intersection,group_cult,Baseline,2582,11,GBR (Top-10 Selected),target_ph,Water pH (-),-0.4515,0.6063,0.2885
+Common_Intersection,group_cult,Baseline,2582,11,ConvNeXt Baseline h_z (32-Dim),target_od680,OD680 / Biomass (AU),-0.5344,0.72,0.3362
+Common_Intersection,group_cult,Baseline,2582,11,ConvNeXt Baseline h_z (32-Dim),target_log_cod,log1p(COD) (mg/L),-0.3152,1.2974,0.3998
+Common_Intersection,group_cult,Baseline,2582,11,ConvNeXt Baseline h_z (32-Dim),target_log_tss,log1p(TSS) (mg/L),-0.6469,1.3831,-0.1726
+Common_Intersection,group_cult,Baseline,2582,11,ConvNeXt Baseline h_z (32-Dim),target_ph,Water pH (-),-0.799,0.675,0.2006
+Common_Intersection,group_cult,Baseline,2582,11,Hybrid (Top-10 + ConvNeXt 32-Dim),target_od680,OD680 / Biomass (AU),-1.0374,0.8297,-0.0611
+Common_Intersection,group_cult,Baseline,2582,11,Hybrid (Top-10 + ConvNeXt 32-Dim),target_log_cod,log1p(COD) (mg/L),-0.2886,1.2842,0.405
+Common_Intersection,group_cult,Baseline,2582,11,Hybrid (Top-10 + ConvNeXt 32-Dim),target_log_tss,log1p(TSS) (mg/L),-0.2024,1.1819,0.1067
+Common_Intersection,group_cult,Baseline,2582,11,Hybrid (Top-10 + ConvNeXt 32-Dim),target_ph,Water pH (-),-1.4311,0.7846,0.1412
+Common_Intersection,5fold,FOTO_crop,2582,11,RF (20 Optical Features),target_od680,OD680 / Biomass (AU),0.6204,0.3581,0.904
+Common_Intersection,5fold,FOTO_crop,2582,11,RF (20 Optical Features),target_log_cod,log1p(COD) (mg/L),0.739,0.578,0.8987
+Common_Intersection,5fold,FOTO_crop,2582,11,RF (20 Optical Features),target_log_tss,log1p(TSS) (mg/L),0.8047,0.4763,0.8752
+Common_Intersection,5fold,FOTO_crop,2582,11,RF (20 Optical Features),target_ph,Water pH (-),0.7879,0.2318,0.9003
+Common_Intersection,5fold,FOTO_crop,2582,11,RF (Top-10 Selected),target_od680,OD680 / Biomass (AU),0.6396,0.349,0.9108
+Common_Intersection,5fold,FOTO_crop,2582,11,RF (Top-10 Selected),target_log_cod,log1p(COD) (mg/L),0.744,0.5724,0.9028
+Common_Intersection,5fold,FOTO_crop,2582,11,RF (Top-10 Selected),target_log_tss,log1p(TSS) (mg/L),0.8071,0.4734,0.8705
+Common_Intersection,5fold,FOTO_crop,2582,11,RF (Top-10 Selected),target_ph,Water pH (-),0.7739,0.2393,0.8947
+Common_Intersection,5fold,FOTO_crop,2582,11,GBR (Top-10 Selected),target_od680,OD680 / Biomass (AU),0.5667,0.3826,0.8556
+Common_Intersection,5fold,FOTO_crop,2582,11,GBR (Top-10 Selected),target_log_cod,log1p(COD) (mg/L),0.6783,0.6417,0.858
+Common_Intersection,5fold,FOTO_crop,2582,11,GBR (Top-10 Selected),target_log_tss,log1p(TSS) (mg/L),0.7967,0.4859,0.8299
+Common_Intersection,5fold,FOTO_crop,2582,11,GBR (Top-10 Selected),target_ph,Water pH (-),0.7107,0.2707,0.8597
+Common_Intersection,5fold,FOTO_crop,2582,11,ConvNeXt Baseline h_z (32-Dim),target_od680,OD680 / Biomass (AU),0.271,0.4963,0.6521
+Common_Intersection,5fold,FOTO_crop,2582,11,ConvNeXt Baseline h_z (32-Dim),target_log_cod,log1p(COD) (mg/L),0.3048,0.9433,0.5729
+Common_Intersection,5fold,FOTO_crop,2582,11,ConvNeXt Baseline h_z (32-Dim),target_log_tss,log1p(TSS) (mg/L),0.3293,0.8827,0.4988
+Common_Intersection,5fold,FOTO_crop,2582,11,ConvNeXt Baseline h_z (32-Dim),target_ph,Water pH (-),0.4026,0.3889,0.7085
+Common_Intersection,5fold,FOTO_crop,2582,11,Hybrid (Top-10 + ConvNeXt 32-Dim),target_od680,OD680 / Biomass (AU),0.6462,0.3458,0.9159
+Common_Intersection,5fold,FOTO_crop,2582,11,Hybrid (Top-10 + ConvNeXt 32-Dim),target_log_cod,log1p(COD) (mg/L),0.7828,0.5273,0.9112
+Common_Intersection,5fold,FOTO_crop,2582,11,Hybrid (Top-10 + ConvNeXt 32-Dim),target_log_tss,log1p(TSS) (mg/L),0.8063,0.4743,0.8795
+Common_Intersection,5fold,FOTO_crop,2582,11,Hybrid (Top-10 + ConvNeXt 32-Dim),target_ph,Water pH (-),0.758,0.2476,0.8919
+Common_Intersection,group_cult,FOTO_crop,2582,11,RF (20 Optical Features),target_od680,OD680 / Biomass (AU),-1.5883,0.9352,-0.2599
+Common_Intersection,group_cult,FOTO_crop,2582,11,RF (20 Optical Features),target_log_cod,log1p(COD) (mg/L),-1.1961,1.6766,-0.062
+Common_Intersection,group_cult,FOTO_crop,2582,11,RF (20 Optical Features),target_log_tss,log1p(TSS) (mg/L),-0.6684,1.3921,-0.0885
+Common_Intersection,group_cult,FOTO_crop,2582,11,RF (20 Optical Features),target_ph,Water pH (-),-1.5718,0.807,-0.0651
+Common_Intersection,group_cult,FOTO_crop,2582,11,RF (Top-10 Selected),target_od680,OD680 / Biomass (AU),-1.5053,0.92,-0.1493
+Common_Intersection,group_cult,FOTO_crop,2582,11,RF (Top-10 Selected),target_log_cod,log1p(COD) (mg/L),-1.1237,1.6487,-0.081
+Common_Intersection,group_cult,FOTO_crop,2582,11,RF (Top-10 Selected),target_log_tss,log1p(TSS) (mg/L),-0.7565,1.4284,-0.0911
+Common_Intersection,group_cult,FOTO_crop,2582,11,RF (Top-10 Selected),target_ph,Water pH (-),-1.3479,0.7711,-0.0239
+Common_Intersection,group_cult,FOTO_crop,2582,11,GBR (Top-10 Selected),target_od680,OD680 / Biomass (AU),-2.0537,1.0158,-0.2616
+Common_Intersection,group_cult,FOTO_crop,2582,11,GBR (Top-10 Selected),target_log_cod,log1p(COD) (mg/L),-0.9456,1.578,0.0098
+Common_Intersection,group_cult,FOTO_crop,2582,11,GBR (Top-10 Selected),target_log_tss,log1p(TSS) (mg/L),-0.6842,1.3987,-0.1505
+Common_Intersection,group_cult,FOTO_crop,2582,11,GBR (Top-10 Selected),target_ph,Water pH (-),-1.8069,0.8431,-0.2683
+Common_Intersection,group_cult,FOTO_crop,2582,11,ConvNeXt Baseline h_z (32-Dim),target_od680,OD680 / Biomass (AU),-0.9266,0.8068,0.0085
+Common_Intersection,group_cult,FOTO_crop,2582,11,ConvNeXt Baseline h_z (32-Dim),target_log_cod,log1p(COD) (mg/L),-0.6779,1.4654,0.0791
+Common_Intersection,group_cult,FOTO_crop,2582,11,ConvNeXt Baseline h_z (32-Dim),target_log_tss,log1p(TSS) (mg/L),-0.9264,1.4959,0.098
+Common_Intersection,group_cult,FOTO_crop,2582,11,ConvNeXt Baseline h_z (32-Dim),target_ph,Water pH (-),-0.6683,0.65,0.0144
+Common_Intersection,group_cult,FOTO_crop,2582,11,Hybrid (Top-10 + ConvNeXt 32-Dim),target_od680,OD680 / Biomass (AU),-1.2244,0.8669,-0.1464
+Common_Intersection,group_cult,FOTO_crop,2582,11,Hybrid (Top-10 + ConvNeXt 32-Dim),target_log_cod,log1p(COD) (mg/L),-0.4893,1.3806,0.0807
+Common_Intersection,group_cult,FOTO_crop,2582,11,Hybrid (Top-10 + ConvNeXt 32-Dim),target_log_tss,log1p(TSS) (mg/L),-0.5873,1.3579,-0.0919
+Common_Intersection,group_cult,FOTO_crop,2582,11,Hybrid (Top-10 + ConvNeXt 32-Dim),target_ph,Water pH (-),-0.7907,0.6734,-0.0646
+Common_Intersection,5fold,FOTO1_crop,2582,11,RF (20 Optical Features),target_od680,OD680 / Biomass (AU),0.8267,0.2419,0.9268
+Common_Intersection,5fold,FOTO1_crop,2582,11,RF (20 Optical Features),target_log_cod,log1p(COD) (mg/L),0.8353,0.4591,0.9101
+Common_Intersection,5fold,FOTO1_crop,2582,11,RF (20 Optical Features),target_log_tss,log1p(TSS) (mg/L),0.8852,0.3652,0.9064
+Common_Intersection,5fold,FOTO1_crop,2582,11,RF (20 Optical Features),target_ph,Water pH (-),0.8861,0.1698,0.9425
+Common_Intersection,5fold,FOTO1_crop,2582,11,RF (Top-10 Selected),target_od680,OD680 / Biomass (AU),0.8033,0.2578,0.9177
+Common_Intersection,5fold,FOTO1_crop,2582,11,RF (Top-10 Selected),target_log_cod,log1p(COD) (mg/L),0.8089,0.4945,0.8893
+Common_Intersection,5fold,FOTO1_crop,2582,11,RF (Top-10 Selected),target_log_tss,log1p(TSS) (mg/L),0.8814,0.3712,0.8948
+Common_Intersection,5fold,FOTO1_crop,2582,11,RF (Top-10 Selected),target_ph,Water pH (-),0.8714,0.1805,0.9377
+Common_Intersection,5fold,FOTO1_crop,2582,11,GBR (Top-10 Selected),target_od680,OD680 / Biomass (AU),0.7927,0.2646,0.8925
+Common_Intersection,5fold,FOTO1_crop,2582,11,GBR (Top-10 Selected),target_log_cod,log1p(COD) (mg/L),0.7478,0.5682,0.8456
+Common_Intersection,5fold,FOTO1_crop,2582,11,GBR (Top-10 Selected),target_log_tss,log1p(TSS) (mg/L),0.8639,0.3976,0.8578
+Common_Intersection,5fold,FOTO1_crop,2582,11,GBR (Top-10 Selected),target_ph,Water pH (-),0.8328,0.2058,0.9092
+Common_Intersection,5fold,FOTO1_crop,2582,11,ConvNeXt Baseline h_z (32-Dim),target_od680,OD680 / Biomass (AU),0.2145,0.5152,0.4936
+Common_Intersection,5fold,FOTO1_crop,2582,11,ConvNeXt Baseline h_z (32-Dim),target_log_cod,log1p(COD) (mg/L),0.1461,1.0454,0.3709
+Common_Intersection,5fold,FOTO1_crop,2582,11,ConvNeXt Baseline h_z (32-Dim),target_log_tss,log1p(TSS) (mg/L),0.2875,0.9098,0.4325
+Common_Intersection,5fold,FOTO1_crop,2582,11,ConvNeXt Baseline h_z (32-Dim),target_ph,Water pH (-),0.3197,0.4151,0.6206
+Common_Intersection,5fold,FOTO1_crop,2582,11,Hybrid (Top-10 + ConvNeXt 32-Dim),target_od680,OD680 / Biomass (AU),0.7848,0.2696,0.9144
+Common_Intersection,5fold,FOTO1_crop,2582,11,Hybrid (Top-10 + ConvNeXt 32-Dim),target_log_cod,log1p(COD) (mg/L),0.7994,0.5068,0.8886
+Common_Intersection,5fold,FOTO1_crop,2582,11,Hybrid (Top-10 + ConvNeXt 32-Dim),target_log_tss,log1p(TSS) (mg/L),0.8722,0.3853,0.8972
+Common_Intersection,5fold,FOTO1_crop,2582,11,Hybrid (Top-10 + ConvNeXt 32-Dim),target_ph,Water pH (-),0.8608,0.1877,0.9335
+Common_Intersection,group_cult,FOTO1_crop,2582,11,RF (20 Optical Features),target_od680,OD680 / Biomass (AU),-2.4061,1.0728,-0.3418
+Common_Intersection,group_cult,FOTO1_crop,2582,11,RF (20 Optical Features),target_log_cod,log1p(COD) (mg/L),-1.4092,1.756,-0.2148
+Common_Intersection,group_cult,FOTO1_crop,2582,11,RF (20 Optical Features),target_log_tss,log1p(TSS) (mg/L),-0.5739,1.3521,-0.2014
+Common_Intersection,group_cult,FOTO1_crop,2582,11,RF (20 Optical Features),target_ph,Water pH (-),-0.7138,0.6588,0.1708
+Common_Intersection,group_cult,FOTO1_crop,2582,11,RF (Top-10 Selected),target_od680,OD680 / Biomass (AU),-1.5229,0.9233,-0.2687
+Common_Intersection,group_cult,FOTO1_crop,2582,11,RF (Top-10 Selected),target_log_cod,log1p(COD) (mg/L),-0.9988,1.5995,-0.1561
+Common_Intersection,group_cult,FOTO1_crop,2582,11,RF (Top-10 Selected),target_log_tss,log1p(TSS) (mg/L),-0.5598,1.3461,-0.1187
+Common_Intersection,group_cult,FOTO1_crop,2582,11,RF (Top-10 Selected),target_ph,Water pH (-),-0.7843,0.6722,0.1336
+Common_Intersection,group_cult,FOTO1_crop,2582,11,GBR (Top-10 Selected),target_od680,OD680 / Biomass (AU),-1.4974,0.9186,-0.2877
+Common_Intersection,group_cult,FOTO1_crop,2582,11,GBR (Top-10 Selected),target_log_cod,log1p(COD) (mg/L),-0.9833,1.5932,-0.1909
+Common_Intersection,group_cult,FOTO1_crop,2582,11,GBR (Top-10 Selected),target_log_tss,log1p(TSS) (mg/L),-0.5319,1.334,-0.2675
+Common_Intersection,group_cult,FOTO1_crop,2582,11,GBR (Top-10 Selected),target_ph,Water pH (-),-0.8325,0.6812,0.0299
+Common_Intersection,group_cult,FOTO1_crop,2582,11,ConvNeXt Baseline h_z (32-Dim),target_od680,OD680 / Biomass (AU),-15.2207,2.341,-0.6467
+Common_Intersection,group_cult,FOTO1_crop,2582,11,ConvNeXt Baseline h_z (32-Dim),target_log_cod,log1p(COD) (mg/L),-10.051,3.7609,-0.1661
+Common_Intersection,group_cult,FOTO1_crop,2582,11,ConvNeXt Baseline h_z (32-Dim),target_log_tss,log1p(TSS) (mg/L),-15.8771,4.4278,-0.1239
+Common_Intersection,group_cult,FOTO1_crop,2582,11,ConvNeXt Baseline h_z (32-Dim),target_ph,Water pH (-),-6.9702,1.4207,-0.2629
+Common_Intersection,group_cult,FOTO1_crop,2582,11,Hybrid (Top-10 + ConvNeXt 32-Dim),target_od680,OD680 / Biomass (AU),-2.0162,1.0095,-0.2872
+Common_Intersection,group_cult,FOTO1_crop,2582,11,Hybrid (Top-10 + ConvNeXt 32-Dim),target_log_cod,log1p(COD) (mg/L),-0.9898,1.5958,-0.1635
+Common_Intersection,group_cult,FOTO1_crop,2582,11,Hybrid (Top-10 + ConvNeXt 32-Dim),target_log_tss,log1p(TSS) (mg/L),-0.5424,1.3386,-0.1494
+Common_Intersection,group_cult,FOTO1_crop,2582,11,Hybrid (Top-10 + ConvNeXt 32-Dim),target_ph,Water pH (-),-0.5912,0.6348,0.0453
+Common_Intersection,5fold,Dual_Crop,2582,11,RF (Dual-Crop Top-10x2),target_od680,OD680 / Biomass (AU),0.834,0.2368,0.9564
+Common_Intersection,5fold,Dual_Crop,2582,11,RF (Dual-Crop Top-10x2),target_log_cod,log1p(COD) (mg/L),0.8677,0.4116,0.9455
+Common_Intersection,5fold,Dual_Crop,2582,11,RF (Dual-Crop Top-10x2),target_log_tss,log1p(TSS) (mg/L),0.9039,0.3342,0.9263
+Common_Intersection,5fold,Dual_Crop,2582,11,RF (Dual-Crop Top-10x2),target_ph,Water pH (-),0.8631,0.1862,0.9358
+Common_Intersection,5fold,Dual_Crop,2582,11,Hybrid Dual-Crop (+ConvNeXt),target_od680,OD680 / Biomass (AU),0.8323,0.238,0.9562
+Common_Intersection,5fold,Dual_Crop,2582,11,Hybrid Dual-Crop (+ConvNeXt),target_log_cod,log1p(COD) (mg/L),0.8619,0.4204,0.9375
+Common_Intersection,5fold,Dual_Crop,2582,11,Hybrid Dual-Crop (+ConvNeXt),target_log_tss,log1p(TSS) (mg/L),0.8966,0.3466,0.924
+Common_Intersection,5fold,Dual_Crop,2582,11,Hybrid Dual-Crop (+ConvNeXt),target_ph,Water pH (-),0.8678,0.183,0.9362
+Common_Intersection,group_cult,Dual_Crop,2582,11,RF (Dual-Crop Top-10x2),target_od680,OD680 / Biomass (AU),-1.1486,0.852,-0.1634
+Common_Intersection,group_cult,Dual_Crop,2582,11,RF (Dual-Crop Top-10x2),target_log_cod,log1p(COD) (mg/L),-1.2698,1.7045,-0.0858
+Common_Intersection,group_cult,Dual_Crop,2582,11,RF (Dual-Crop Top-10x2),target_log_tss,log1p(TSS) (mg/L),-0.5029,1.3213,-0.0427
+Common_Intersection,group_cult,Dual_Crop,2582,11,RF (Dual-Crop Top-10x2),target_ph,Water pH (-),-0.7222,0.6604,0.098
+Common_Intersection,group_cult,Dual_Crop,2582,11,Hybrid Dual-Crop (+ConvNeXt),target_od680,OD680 / Biomass (AU),-1.828,0.9775,-0.1949
+Common_Intersection,group_cult,Dual_Crop,2582,11,Hybrid Dual-Crop (+ConvNeXt),target_log_cod,log1p(COD) (mg/L),-1.1112,1.6438,-0.0807
+Common_Intersection,group_cult,Dual_Crop,2582,11,Hybrid Dual-Crop (+ConvNeXt),target_log_tss,log1p(TSS) (mg/L),-0.5168,1.3274,-0.0971
+Common_Intersection,group_cult,Dual_Crop,2582,11,Hybrid Dual-Crop (+ConvNeXt),target_ph,Water pH (-),-0.4071,0.5969,0.1939
+Common_Intersection_HeldOut_K03_K06_K12,loco_heldout,Baseline,456,3,ConvNeXt Fine-Tuned (Dataset-Specific),target_od680,OD680 / Biomass (AU),-0.3853,,
+Common_Intersection_HeldOut_K03_K06_K12,loco_heldout,Baseline,456,3,ConvNeXt Fine-Tuned (Dataset-Specific),target_log_cod,log1p(COD) (mg/L),-0.2809,,
+Common_Intersection_HeldOut_K03_K06_K12,loco_heldout,Baseline,456,3,ConvNeXt Fine-Tuned (Dataset-Specific),target_log_tss,log1p(TSS) (mg/L),-0.1834,,
+Common_Intersection_HeldOut_K03_K06_K12,loco_heldout,FOTO_crop,456,3,ConvNeXt Fine-Tuned (Dataset-Specific),target_od680,OD680 / Biomass (AU),-0.0693,,
+Common_Intersection_HeldOut_K03_K06_K12,loco_heldout,FOTO_crop,456,3,ConvNeXt Fine-Tuned (Dataset-Specific),target_log_cod,log1p(COD) (mg/L),-0.0815,,
+Common_Intersection_HeldOut_K03_K06_K12,loco_heldout,FOTO_crop,456,3,ConvNeXt Fine-Tuned (Dataset-Specific),target_log_tss,log1p(TSS) (mg/L),-0.0692,,
+Common_Intersection_HeldOut_K03_K06_K12,loco_heldout,FOTO1_crop,456,3,ConvNeXt Fine-Tuned (Dataset-Specific),target_od680,OD680 / Biomass (AU),-0.0808,,
+Common_Intersection_HeldOut_K03_K06_K12,loco_heldout,FOTO1_crop,456,3,ConvNeXt Fine-Tuned (Dataset-Specific),target_log_cod,log1p(COD) (mg/L),0.045,,
+Common_Intersection_HeldOut_K03_K06_K12,loco_heldout,FOTO1_crop,456,3,ConvNeXt Fine-Tuned (Dataset-Specific),target_log_tss,log1p(TSS) (mg/L),0.068,,
